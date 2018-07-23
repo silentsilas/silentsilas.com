@@ -1,0 +1,10 @@
+<nav class="pagination" role="navigation">
+    {{ if .Paginator.HasPrev}}
+        <a class="newer-posts" href="{{ .Paginator.Prev.URL }}">&larr; Newer Posts</a>
+    {{end}}
+    <span class="page-number">Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
+    {{if .Paginator.HasNext}}
+        <a class="older-posts" style="justify-content:flex-end" href="{{ .Paginator.Next.URL }}">Older Posts &rarr;</a>
+    {{end}}
+</nav>
+    

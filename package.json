@@ -1,0 +1,22 @@
+{
+  "name": "silent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^9.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Poeticode/silentsilas.com"
+  },
+  "author": "Silas Tippens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Poeticode/silentsilas.com/issues"
+  },
+  "homepage": "https://github.com/Poeticode/silentsilas.com#README"
+}

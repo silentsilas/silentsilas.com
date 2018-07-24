@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "postcss-cli": "^6.0.0"
+  },
   "devDependencies": {
     "autoprefixer": "^9.0.1"
   },

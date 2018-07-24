@@ -1,3 +1,28 @@
-body {
-    background: red;
+@font-face {
+    font-family: 'hack';
+    src: url('/fonts/hack-regular-webfont.woff2') format('woff2'),
+         url('/fonts/hack-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body {
+    background: #efefef;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+canvas{ 
+    width: 100%; 
+    height: 100%; 
+}
+
+#greeting {
+    position: absolute;
+    font-family: 'hack';
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    color: #efefef;
 }

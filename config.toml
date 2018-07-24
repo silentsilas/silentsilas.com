@@ -1,6 +1,6 @@
 baseURL = "https://silentsilas.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Silence Speaks"
 disablePathToLower = false
 paginate = 8
 # googleAnalytics = "UA-62812844-1"

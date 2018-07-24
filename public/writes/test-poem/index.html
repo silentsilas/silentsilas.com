@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<html lang="en-us">
     <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <title>{{ .Title }}</title>
+            <title>Test Poem</title>
         
-            {{ $scss := resources.Get "scss/main.scss" | toCSS | postCSS | minify }} 
-            {{ $tachyons := resources.Get "css/tachyons.min.css" }}
-            {{ $style := slice $tachyons $scss | resources.Concat "app.css" | fingerprint }} 
-            <link rel="stylesheet" href="{{ $style.Permalink }}" emotion="🤩">
-            <!-- Matomo -->
+             
+            
+             
+            <link rel="stylesheet" href="https://silentsilas.com/app.2d4f03ce29394210f24fbff66c595d4053d6b2167f246825f50a6369822b447e.css" emotion="🤩">
+            
             <script type="text/javascript">
             var _paq = _paq || [];
-            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+             
             _paq.push(['trackPageView']);
             _paq.push(['enableLinkTracking']);
             (function() {
@@ -24,6 +24,17 @@
             g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
             })();
             </script>
-            <!-- End Matomo Code -->
+            
         </head>
     <body>
+<div class="post-content">
+    <p>Hey there this is my first poem</p>
+
+</div>
+
+
+
+<script src="https://silentsilas.com/app.bbb99690866417b2b8449d2b776305f0991f74ff4845f5c4f9a386bb08d123ad.js" integrity="sha256-u7mWkIZkF7K4RJ0rd2MF8JkfdP9IRfXE&#43;aOGuwjRI60="></script>
+
+</body>
+</html>

@@ -1,6 +1,7 @@
 {{ $mainjs := resources.Get "js/app.js" | resources.Minify }}
 {{ $threejs := resources.Get "js/three.min.js" }}
-{{ $js := slice $threejs $mainjs | resources.Concat "app.js" | resources.Fingerprint }}
+{{ $analytics := resources.Get "js/analytics.js"}}
+{{ $js := slice $threejs $mainjs $analytics | resources.Concat "app.js" | resources.Fingerprint }}
 <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
 </body>

@@ -1,7 +1,18 @@
 (function() {
     var tau = Math.PI * 2;
+    var greeter;
+    var greetingTime = 3;
     var width, height;
     var scene, camera, renderer;
+    var currentColor = new THREE.Color( 0x339933 );
+    var nextColorIdx = 1;
+    var colorPalette = [
+        new THREE.Color (0x339933),
+        new THREE.Color (0x00b8ff),
+        new THREE.Color (0xbd00ff),
+        new THREE.Color (0xfdff45)
+    ];
+
     var greetings = [
         "Silence is golden.",
         "Aloha!",
@@ -31,11 +42,18 @@
         "Tupac 2020!",
         "Who will guard the guardians?",
         "Our love is an immutable object.",
-        "You are the global constant to my life."
+        "You are the global constant in my life.",
+        "Don't be such a circuit breaker.",
+        "If you're seeing things that you thought were dead, who you gonna call? Cache Busters!",
+        "I think I need a blockchain to keep track of all my blockchains",
+        "Contrary to popular belief, I do in fact know a few things outside my realm of expertise."
     ]
     function OnDocumentReady(){
+        greeter = document.getElementById("greeting");
+        if (greeter != null) {
+            ShowGreet();
+        }
 
-        Greeting();
 
         Initialize();
         var interimColor = new THREE.Color( 0x339933 );
@@ -47,10 +65,10 @@
         });
     
         var x, y, z;
-        for (var vertIdx = 0; vertIdx < 2000; vertIdx++) {
-            x = (Math.random() * 1600) * Math.cos(vertIdx);
-            y = (Math.random() * 1200) * Math.sin(vertIdx);
-            z = (Math.random() * 800) - 400;
+        for (var vertIdx = 0; vertIdx < 500; vertIdx++) {
+            x = (Math.random() * 200) * Math.cos(vertIdx * 40);
+            y = (Math.random() * 300) * Math.sin(vertIdx * 40);
+            z = (Math.random() * 100) - 400;
         
             geometry.vertices.push(new THREE.Vector3(x, y, z));
             geometry.colors.push(new THREE.Color(Math.random(), Math.random(), Math.random()));
@@ -62,37 +80,31 @@
         var iterator = 0;
         var colorIterator = 0;
         var colorSteps = 400;
-        var colorReversing = false;
 
         function render(){
             window.requestAnimationFrame(render);
 
             iterator++;
-            if (colorReversing) {
-                colorIterator--;
-                if (colorIterator < 0) {
-                    colorReversing = false;
-                }
-            } else {
-                colorIterator++;
-                if (colorIterator > colorSteps) {
-                    colorReversing = true;
-                }
+            colorIterator++;
+            if (colorIterator > colorSteps) {
+                colorIterator = 0;
+                currentColor = colorPalette[nextColorIdx];
+                nextColorIdx = (nextColorIdx + 1) % colorPalette.length;
             }
 
-            var startColor = new THREE.Color( 0x330033 );
-            var newColor = startColor.lerp(interimColor, (colorIterator) / colorSteps);
+            var startColor = currentColor.clone();
+            var newColor = startColor.lerp(colorPalette[nextColorIdx], (colorIterator) / colorSteps);
             for (var vertexIdx = 0; vertexIdx < geometry.vertices.length; vertexIdx++) {
                 var particle = geometry.vertices[vertexIdx];
                 var dX, dY, dZ;
                 var direction = vertexIdx % 2 == 0 ? 1 : -1;
 
-                dX = (Math.cos(iterator / 30) * 20 * direction) +
-                    (Math.sin(iterator / 40) * 5);
-                dY = Math.sin(iterator / 40) * 5 * direction +
-                    (Math.cos(iterator / 40) * 5);
-                dZ = Math.sin(iterator / 20) * -20;
-            
+                dX = (Math.cos((iterator + vertexIdx) / 30) * 20 * direction) +
+                    (Math.sin((iterator - vertexIdx) / 40) * 5);
+                dY = Math.sin((iterator - vertexIdx) / 40) * 5 * direction +
+                    (Math.cos((iterator + vertexIdx) / 40) * 5);
+                // dZ = Math.sin((iterator - vertexIdx) / 20) * -20;
+                dZ = 0;
                 particle.add(new THREE.Vector3(dX, dY, dZ));
                 geometry.colors[vertexIdx] = newColor;
             }
@@ -127,14 +139,17 @@
         camera.updateProjectionMatrix();
     }
 
-    function Greeting() {
-        var greeter = document.getElementById("greeting");
+    function ShowGreet() {
+        TweenLite.fromTo(greeter, greetingTime, {opacity: "0"}, {opacity: "1", onComplete: HideGreet});
+    }
 
-        if (greeter != null) {
-            console.log(Math.random() * greetings.length);
-            greeter.innerHTML = greetings[Math.floor(Math.random() * greetings.length)];
-        }
+    function HideGreet() {
+        TweenLite.fromTo(greeter, greetingTime/2, {opacity: "1"}, {opacity: "0", onComplete: NextGreet});
+    }
 
+    function NextGreet() {
+        greeter.innerHTML = greetings[Math.floor(Math.random() * greetings.length)];
+        ShowGreet();
     }
 
     document.addEventListener('DOMContentLoaded', OnDocumentReady);

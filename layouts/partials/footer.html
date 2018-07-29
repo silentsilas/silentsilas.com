@@ -1,9 +1,8 @@
-{{ $mainjs := resources.Get "js/app.js" | resources.Minify }}
-{{ $threejs := resources.Get "js/three.min.js" }}
-{{ $analytics := resources.Get "js/analytics.js"}}
-{{ $tween := resources.Get "js/TweenLite.min.js" }}
-{{ $cssTween := resources.Get "js/CSSPlugin.min.js" }}
-{{ $js := slice $threejs $mainjs $analytics $tween $cssTween | resources.Concat "app.js" | resources.Fingerprint }}
+
+{{ $analytics := resources.Get "js/analytics.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $analytics.Permalink }}"></script>
+
+{{ $js := resources.Get "js/dist/bundle.js" | resources.Fingerprint }}
 <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
 </body>

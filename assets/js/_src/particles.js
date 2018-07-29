@@ -5,8 +5,11 @@ var eyeCone;
 
 var width, height;
 var scene, camera, renderer;
+var modeElement;
+var canvasElement;
 
 export function Initialize(element){
+    canvasElement = element;
     // make sure canvas is always at correct aspect ratio
     window.addEventListener('resize', OnWindowResize);
 
@@ -64,7 +67,12 @@ function AnimatePoints() {
     }
 
     // set up listeners for mouse interaction
-    document.addEventListener('click', ChangeSettings);
+    canvasElement.addEventListener('click', ChangeColor);
+
+    modeElement = document.querySelector(".particles_mode");
+    document.querySelector(".particles_left").addEventListener('click', LeftControl);
+    document.querySelector(".particles_right").addEventListener('click', RightControl);
+
     document.addEventListener('mousemove', OnMouseMove);
 
     var geometry = new THREE.Geometry();
@@ -195,14 +203,27 @@ function AnimatePoints() {
         mouse.y = e.clientY;
     }
 
-    function ChangeSettings() {
+    function RightControl() {
+        ChangeMode((mode + 1) % 3);
+    }
+
+    function LeftControl() {
+        ChangeMode(( (mode - 1) + 3) % 3 );
+    }
+
+    function ChangeColor() {
         colorIterator = 0;
         currentColor = colorPalette[nextColorIdx];
         nextColorIdx = (nextColorIdx + 1) % colorPalette.length;
+    }
 
-        ResetParticlePositions();
-        mode = (mode + 1) % 3;
+    function ChangeMode(modeIndex) {
+
+        mode = modeIndex;
         modeCounter = 0;
+        modeElement.innerHTML = (modeIndex + 1) +"/3";
+        ResetParticlePositions();
+
     }
 
     function UpdateLookat() {

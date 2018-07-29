@@ -2,8 +2,5 @@
 {{ $analytics := resources.Get "js/analytics.js" | resources.Minify | resources.Fingerprint }}
 <script src="{{ $analytics.Permalink }}"></script>
 
-{{ $js := resources.Get "js/dist/bundle.js" | resources.Fingerprint }}
-<script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
-
 </body>
 </html>

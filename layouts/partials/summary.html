@@ -4,8 +4,6 @@
         Posted on: {{ .Date.Format "02.01.2006 15:04" }} | 
         Author: {{.Site.Author.name }} |
         Categories: {{ range .Params.categories }} <a href="{{ "/categories/" | relURL }}{{ . | urlize }}">{{ . }}</a> {{ end }} 
-        | <a href="{{ .RelPermalink }}#disqus_thread">
-            <span class="disqus-comment-count" data-disqus-url="{{ .RelPermalink }}">Comments <!-- Count will be inserted here --> </span></a>
     </p>
     <div class="summary">
         {{ .Summary }}

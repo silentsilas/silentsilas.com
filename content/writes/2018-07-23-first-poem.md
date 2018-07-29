@@ -6,4 +6,4 @@ draft = false
 slug = "test-poem"
 title = "Test Poem"
 +++
-Hey there this is my first poem
+Hey there! This will have my poetry/stories.

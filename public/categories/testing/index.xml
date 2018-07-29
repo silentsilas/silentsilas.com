@@ -19,16 +19,106 @@
       <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
       <guid>https://silentsilas.com/writes/test-poem/</guid>
-      <description>Hey there this is my first poem</description>
+      <description>Hey there! This will have my poetry/stories.</description>
+    </item>
+    
+    <item>
+      <title>Test Poem 2</title>
+      <link>https://silentsilas.com/writes/test-poem-2/</link>
+      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/test-poem-2/</guid>
+      <description>Hey there! This will have my poetry/stories.</description>
+    </item>
+    
+    <item>
+      <title>Test Poem-10</title>
+      <link>https://silentsilas.com/writes/test-poem-10/</link>
+      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/test-poem-10/</guid>
+      <description>Hey there! This will have my poetry/stories.</description>
+    </item>
+    
+    <item>
+      <title>Test Poem-3</title>
+      <link>https://silentsilas.com/writes/test-poem-3/</link>
+      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/test-poem-3/</guid>
+      <description>Hey there! This will have my poetry/stories.</description>
+    </item>
+    
+    <item>
+      <title>Test Poem-4</title>
+      <link>https://silentsilas.com/writes/test-poem-4/</link>
+      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/test-poem-4/</guid>
+      <description>Hey there! This will have my poetry/stories.</description>
+    </item>
+    
+    <item>
+      <title>Test Poem-5</title>
+      <link>https://silentsilas.com/writes/test-poem-5/</link>
+      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/test-poem-5/</guid>
+      <description>Hey there! This will have my poetry/stories.</description>
+    </item>
+    
+    <item>
+      <title>Test Poem-6</title>
+      <link>https://silentsilas.com/writes/test-poem-6/</link>
+      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/test-poem-6/</guid>
+      <description>Hey there! This will have my poetry/stories.</description>
+    </item>
+    
+    <item>
+      <title>Test Poem-7</title>
+      <link>https://silentsilas.com/writes/test-poem-7/</link>
+      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/test-poem-7/</guid>
+      <description>Hey there! This will have my poetry/stories.</description>
+    </item>
+    
+    <item>
+      <title>Test Poem-8</title>
+      <link>https://silentsilas.com/writes/test-poem-8/</link>
+      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/test-poem-8/</guid>
+      <description>Hey there! This will have my poetry/stories.</description>
+    </item>
+    
+    <item>
+      <title>Test Poem-9</title>
+      <link>https://silentsilas.com/writes/test-poem-9/</link>
+      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/test-poem-9/</guid>
+      <description>Hey there! This will have my poetry/stories.</description>
     </item>
     
     <item>
       <title>Test Post</title>
-      <link>https://silentsilas.com/speaks/test-blog-post/</link>
+      <link>https://silentsilas.com/rants/test-blog-post/</link>
       <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/speaks/test-blog-post/</guid>
-      <description>Hey there I&amp;rsquo;m just testing this</description>
+      <guid>https://silentsilas.com/rants/test-blog-post/</guid>
+      <description>Hey there! This will have my blog posts.</description>
+    </item>
+    
+    <item>
+      <title>Test Work</title>
+      <link>https://silentsilas.com/works/test-work/</link>
+      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/works/test-work/</guid>
+      <description>Hey there! This will have my random projects.</description>
     </item>
     
   </channel>

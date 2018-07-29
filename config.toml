@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Silence Speaks"
 disablePathToLower = false
 paginate = 8
+enableRobotsTXT = true
 # googleAnalytics = "UA-62812844-1"
 
 [params]

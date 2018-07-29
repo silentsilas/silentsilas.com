@@ -2,13 +2,51 @@
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
     <head>
             <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <title>{{ .Title }}</title>
         
-            {{ $scss := resources.Get "scss/main.scss" | toCSS | postCSS | minify }} 
+            {{ $scss := resources.Get "css/main.css" }} 
             {{ $tachyons := resources.Get "css/tachyons.min.css" }}
             {{ $style := slice $tachyons $scss | resources.Concat "app.css" | fingerprint }} 
             <link rel="stylesheet" href="{{ $style.Permalink }}" emotion="🤩">
+
+            
+            {{ $js := resources.Get "js/dist/bundle.js" | resources.Fingerprint }}
+            <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+
+            {{ $turbolinks := resources.Get "js/turbolinks.js" | resources.Fingerprint }}
+            <script src="{{ $turbolinks.Permalink }}" integrity="{{ $turbolinks.Data.Integrity }}"></script>
         </head>
-    <body>
+    {{ if .IsHome }}
+    <body class="home">
+    {{ else }} 
+    <body> 
+    {{ end }}
+
+    <div class="nav" id="nav" data-turbolinks-permanent>
+        
+        <div class="fl w-10 pa2"></div>
+        <div class="nav_options">
+            <div class="fl w-100 w-30-ns pa2 nav_option">
+                <a href="/rants">Rants</a>
+            </div>
+
+            <div class="fl w-100 w-30-ns pa2 nav_option">
+                <a href="/writes">Writes</a>
+            </div>
+
+            <div class="fl w-100 w-30-ns pa2 nav_option">
+                <a href="/works">Works</a>
+            </div>
+        </div>
+        <div class="fl w-100 w-10-ns pa2 nav_name">
+            <div class="menu_icon">
+                <div class="icon_bar1"></div>
+                <div class="icon_bar2"></div>
+                <div class="icon_bar3"></div>
+            </div>
+            <a href="/">Silent Silas</a>
+        </div>
+
+    </div>

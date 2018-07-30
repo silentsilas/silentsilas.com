@@ -37,8 +37,8 @@ gulp.task('default', function () {
     .bundle()
     .pipe(source('bundle.js'))
     .pipe(buffer())
-    .pipe(sourcemaps.init({loadMaps: true}))
-    .pipe(sourcemaps.write('./'))
+    // .pipe(sourcemaps.init({loadMaps: true}))
+    // .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('assets/js/dist'));
 });
 

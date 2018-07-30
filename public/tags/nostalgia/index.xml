@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nostalgia on Silence Speaks</title>
+    <link>https://silentsilas.com/tags/nostalgia/</link>
+    <description>Recent content in Nostalgia on Silence Speaks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>me@silentsilas.com (Silent Silas)</managingEditor>
+    <webMaster>me@silentsilas.com (Silent Silas)</webMaster>
+    <lastBuildDate>Thu, 10 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://silentsilas.com/tags/nostalgia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bad Behavior</title>
+      <link>https://silentsilas.com/writes/bad-behavior/</link>
+      <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/bad-behavior/</guid>
+      <description>Do you happen to haveA cigarette I could bum?Just to hold in my handTo help reminisce someTo bring me back to a timeWhen I had it all togetherAnd the worst of my worriesWas exploring Minecraft&#39;s Nether.In fact, could I pleaseBorrow your lighter as well?I won&#39;t actually smoke it;I promise to not inhale.Just the act of smokingPuts my mind at easeAnd places it in Bear CreekEnjoying the summer&#39;s breeze.</description>
+    </item>
+    
+    <item>
+      <title>Homie</title>
+      <link>https://silentsilas.com/writes/homie/</link>
+      <pubDate>Fri, 15 May 2015 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/homie/</guid>
+      <description>After we had passed around our timeLike a handout from a middle school teacherWhich left us as curiously disinterestedAs the typical middle school kid-creature,I had begun to realize we all had funWhile I analyzed the past That I hold beneath my beanie.With the help of Aladdin&#39;s nameless genie,Tupac, and the also-immortal Houdini,I relived the photos we claimFrame us as fresh as a French Martini.</description>
+    </item>
+    
+  </channel>
+</rss>

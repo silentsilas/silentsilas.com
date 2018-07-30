@@ -5,13 +5,16 @@
   height: 60px;
   top: 0;
   width: 100%;
-  border-bottom: 2px solid rgba(230, 230, 230, 0.5);
+  border-bottom: 2px solid #3cdc3c;
   font-size: 14px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #efefef; }
   .nav .nav_options {
-    position: relative;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     height: 100%;
+    width: 100%;
     user-select: none;
     display: none;
     opacity: 0; }
@@ -23,8 +26,12 @@
     color: rgba(230, 230, 230, 0.9); }
     .nav .nav_name:hover, .nav .nav_option:hover {
       color: #efefef; }
+  .nav .nav_option {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-bottom: 2px solid #3cdc3c;
+    padding: 22px; }
   .nav .menu_icon {
-    display: inline-block;
+    display: block;
     cursor: pointer;
     position: absolute;
     left: 10%;
@@ -49,13 +56,23 @@
     top: 50%;
     transform: translateY(-50%); }
   @media screen and (min-width: 30em) {
-    .nav .nav_options {
-      display: block;
-      opacity: 1; }
-    .nav .nav_name {
-      text-align: right; }
-    .nav .menu_icon {
-      display: none; } }
+    .nav {
+      border-bottom: none; }
+      .nav .nav_options {
+        position: relative;
+        left: 0px;
+        transform: translateX(0%);
+        display: block;
+        opacity: 1; }
+      .nav .nav_name {
+        height: 100%; }
+        .nav .nav_name a {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translateX(-50%) translateY(-50%); }
+      .nav .menu_icon {
+        display: none; } }
   .nav .nav_option {
     position: relative;
     text-align: center;
@@ -131,15 +148,48 @@ html, body {
 .post-title {
   display: inline-block; }
 
-main {
-  text-align: center;
-  max-height: 79%;
+.post {
+  height: 100%;
+  padding: 0px 20px; }
+
+.post-content {
+  height: 100%;
+  max-height: calc(100% - 130px);
   overflow: auto; }
+
+.poem {
+  text-align: center; }
+
+main {
+  height: 100%; }
+
+.linklist {
+  max-height: calc(100% - 120px);
+  overflow: auto;
+  text-align: center; }
+
+.linklist_next {
+  text-align: right; }
+
+.linklist_nexttitle, .linklist_prevtitle {
+  display: none; }
 
 .pagination {
   text-align: center;
   position: absolute;
   left: 50%;
+  height: 60px;
+  width: 100%;
   bottom: 0px;
   transform: translateX(-50%);
   padding: 20px 0px; }
+
+.older-posts, .newer-posts {
+  display: none; }
+
+@media screen and (min-width: 30em) {
+  .post-content {
+    max-height: calc(100% - 120px);
+    padding: 0px; }
+  .linklist_nexttitle, .linklist_prevtitle, .older-posts, .newer-posts {
+    display: inline-block; } }

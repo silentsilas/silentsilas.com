@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vices on Silence Speaks</title>
+    <link>https://silentsilas.com/tags/vices/</link>
+    <description>Recent content in Vices on Silence Speaks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>me@silentsilas.com (Silent Silas)</managingEditor>
+    <webMaster>me@silentsilas.com (Silent Silas)</webMaster>
+    <lastBuildDate>Mon, 25 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://silentsilas.com/tags/vices/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quarter-Life Crisis</title>
+      <link>https://silentsilas.com/writes/quarter-life-crisis/</link>
+      <pubDate>Mon, 25 Apr 2016 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/quarter-life-crisis/</guid>
+      <description>There&#39;s nothing betterThan a quarter-life crisis.At the peak of your prime,Catching up on lost time,Fighting off vicious vicesBy keeping yourself busyAnd taking in all of the cityWithout a careFor what its price is.So long as you&#39;re no longerLeft to your own devices. </description>
+    </item>
+    
+  </channel>
+</rss>

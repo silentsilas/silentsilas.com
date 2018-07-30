@@ -44,17 +44,58 @@ html, body {
     display: inline-block;
 }
 
-main {
-    text-align: center;
-    max-height: 79%;
+.post {
+    height: 100%;
+    padding: 0px 20px;
+}
+
+.post-content {
+    height: 100%;
+    max-height: calc(100% - 130px);
     overflow: auto;
+}
+
+.poem {
+    text-align: center;
+}
+
+main {
+    height: 100%;
+}
+
+.linklist {
+    max-height: calc(100% - 120px);
+    overflow: auto;
+    text-align: center;
+}
+.linklist_next {
+    text-align: right;
+}
+.linklist_nexttitle, .linklist_prevtitle {
+    display: none;
 }
 
 .pagination {
     text-align: center;
     position: absolute;
     left: 50%;
+    height: 60px;
+    width: 100%;
     bottom: 0px;
     transform: translateX(-50%);
     padding: 20px 0px;
+}
+
+.older-posts, .newer-posts {
+    display: none;
+}
+
+@media screen and (min-width:30em) {
+    .post-content {
+        max-height: calc(100% - 120px);
+        padding: 0px;
+    }
+    .linklist_nexttitle, .linklist_prevtitle, .older-posts, .newer-posts {
+        display: inline-block;
+    }
 }

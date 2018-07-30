@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Doubt on Silence Speaks</title>
+    <link>https://silentsilas.com/tags/doubt/</link>
+    <description>Recent content in Doubt on Silence Speaks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>me@silentsilas.com (Silent Silas)</managingEditor>
+    <webMaster>me@silentsilas.com (Silent Silas)</webMaster>
+    <lastBuildDate>Thu, 10 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://silentsilas.com/tags/doubt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bad Behavior</title>
+      <link>https://silentsilas.com/writes/bad-behavior/</link>
+      <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/bad-behavior/</guid>
+      <description>Do you happen to haveA cigarette I could bum?Just to hold in my handTo help reminisce someTo bring me back to a timeWhen I had it all togetherAnd the worst of my worriesWas exploring Minecraft&#39;s Nether.In fact, could I pleaseBorrow your lighter as well?I won&#39;t actually smoke it;I promise to not inhale.Just the act of smokingPuts my mind at easeAnd places it in Bear CreekEnjoying the summer&#39;s breeze.</description>
+    </item>
+    
+    <item>
+      <title>Despondent</title>
+      <link>https://silentsilas.com/writes/despondent/</link>
+      <pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/despondent/</guid>
+      <description>The holy spiritFilled your lungsAt one point.Now it’s eitherAmericanOr rolled joints. </description>
+    </item>
+    
+  </channel>
+</rss>

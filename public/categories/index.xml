@@ -8,16 +8,35 @@
     <language>en-us</language>
     <managingEditor>me@silentsilas.com (Silent Silas)</managingEditor>
     <webMaster>me@silentsilas.com (Silent Silas)</webMaster>
+    <lastBuildDate>Sun, 29 Jul 2018 23:04:08 +0000</lastBuildDate>
     
 	<atom:link href="https://silentsilas.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Testing</title>
-      <link>https://silentsilas.com/categories/testing/</link>
-      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <title>Blog</title>
+      <link>https://silentsilas.com/categories/blog/</link>
+      <pubDate>Sun, 29 Jul 2018 23:04:08 +0000</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/categories/testing/</guid>
+      <guid>https://silentsilas.com/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poetry</title>
+      <link>https://silentsilas.com/categories/poetry/</link>
+      <pubDate>Mon, 25 Jun 2018 16:27:46 -0400</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/categories/poetry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://silentsilas.com/categories/projects/</link>
+      <pubDate>Wed, 28 Mar 2018 23:04:08 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/categories/projects/</guid>
       <description></description>
     </item>
     

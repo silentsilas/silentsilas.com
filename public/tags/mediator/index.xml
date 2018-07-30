@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mediator on Silence Speaks</title>
+    <link>https://silentsilas.com/tags/mediator/</link>
+    <description>Recent content in Mediator on Silence Speaks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>me@silentsilas.com (Silent Silas)</managingEditor>
+    <webMaster>me@silentsilas.com (Silent Silas)</webMaster>
+    <lastBuildDate>Sun, 10 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://silentsilas.com/tags/mediator/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Placate</title>
+      <link>https://silentsilas.com/writes/placate/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/placate/</guid>
+      <description>It&#39;s not my placeTo placate.To somewhere safe,I vacate. </description>
+    </item>
+    
+  </channel>
+</rss>

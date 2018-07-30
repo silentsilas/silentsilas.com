@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alliteration on Silence Speaks</title>
+    <link>https://silentsilas.com/tags/alliteration/</link>
+    <description>Recent content in Alliteration on Silence Speaks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>me@silentsilas.com (Silent Silas)</managingEditor>
+    <webMaster>me@silentsilas.com (Silent Silas)</webMaster>
+    <lastBuildDate>Mon, 11 Apr 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://silentsilas.com/tags/alliteration/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Silent Sound</title>
+      <link>https://silentsilas.com/writes/silent-sound/</link>
+      <pubDate>Mon, 11 Apr 2011 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/silent-sound/</guid>
+      <description>Safely set inside this song
+Are silent sounds we passed along.
+Secret though we seek to know
+Signs of its new secret show.
+Silence hides up in the skies
+Far from folks, cars, and lies.
+It only lives to watch us die,
+For that is when our souls arrive
+And silent sounds are synthesized.</description>
+    </item>
+    
+  </channel>
+</rss>

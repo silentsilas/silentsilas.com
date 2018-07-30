@@ -8,117 +8,793 @@
     <language>en-us</language>
     <managingEditor>me@silentsilas.com (Silent Silas)</managingEditor>
     <webMaster>me@silentsilas.com (Silent Silas)</webMaster>
-    <lastBuildDate>Mon, 23 Jul 2018 14:02:33 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jul 2018 23:04:08 +0000</lastBuildDate>
     
 	<atom:link href="https://silentsilas.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Test Poem</title>
-      <link>https://silentsilas.com/writes/test-poem/</link>
-      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <title>Silence Is Golden</title>
+      <link>https://silentsilas.com/rants/silence-is-golden/</link>
+      <pubDate>Sun, 29 Jul 2018 23:04:08 +0000</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/test-poem/</guid>
-      <description>Hey there! This will have my poetry/stories.</description>
+      <guid>https://silentsilas.com/rants/silence-is-golden/</guid>
+      <description>Hey there! Welcome to Silent Silas. I write code during the day, and poetry at night. This is my playground.
+This section in particular is where I&amp;rsquo;ll discuss my terrible opinions on life, the universe, and the objectification of humanity.
+For the web developers out there, this is a static site built with Hugo, styled with Tachyons, sped up with Turbolinks, and animated with both ThreeJS and GreenSock. It&amp;rsquo;ll eventually use Service Workers so that the entirety of the site is available offline.</description>
     </item>
     
     <item>
-      <title>Test Poem 2</title>
-      <link>https://silentsilas.com/writes/test-poem-2/</link>
-      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <title>King&#39;s Pin</title>
+      <link>https://silentsilas.com/writes/kings-pin/</link>
+      <pubDate>Mon, 25 Jun 2018 16:27:46 -0400</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/test-poem-2/</guid>
-      <description>Hey there! This will have my poetry/stories.</description>
+      <guid>https://silentsilas.com/writes/kings-pin/</guid>
+      <description>You placed my kingIn a surprising checkTo ensure I’m keptOn the tip of my toes.Only a fewOf our pieces are left,And each one of my movesAre presupposed.Unbeknownst,Synonymous to beginner.A satisfying poachAwarded to the winner. </description>
     </item>
     
     <item>
-      <title>Test Poem-10</title>
-      <link>https://silentsilas.com/writes/test-poem-10/</link>
-      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <title>I&#39;ve Seen</title>
+      <link>https://silentsilas.com/writes/i-ve-seen/</link>
+      <pubDate>Sat, 28 Apr 2018 16:27:46 -0400</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/test-poem-10/</guid>
-      <description>Hey there! This will have my poetry/stories.</description>
+      <guid>https://silentsilas.com/writes/i-ve-seen/</guid>
+      <description>I&amp;rsquo;ve seen tears fall
+From the face of a giant,
+A hint of desperation
+In the pleas of a king,
+An attempt to forgive
+The guilt-tripping violent,
+Their genuine surprise
+That neither learned a thing.
+The wishes of a mother
+Remain whispers in the wind,
+And the riches of the world
+In the words of humbled men.</description>
     </item>
     
     <item>
-      <title>Test Poem-3</title>
-      <link>https://silentsilas.com/writes/test-poem-3/</link>
-      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <title>Fooling With Famitracker</title>
+      <link>https://silentsilas.com/works/famitrackers/</link>
+      <pubDate>Wed, 28 Mar 2018 23:04:08 +0000</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/test-poem-3/</guid>
-      <description>Hey there! This will have my poetry/stories.</description>
+      <guid>https://silentsilas.com/works/famitrackers/</guid>
+      <description>Here are two tracks I made in FamiTracker that I&amp;rsquo;m actually a bit proud of! They were probably written back in 2011.
+ You can check out the raw .ftm file here, which you would open in Famitracker to see all of the notes laid out.
+ Same as above, you can check out the .ftm file here.</description>
     </item>
     
     <item>
-      <title>Test Poem-4</title>
-      <link>https://silentsilas.com/writes/test-poem-4/</link>
-      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <title>Asphyxiate</title>
+      <link>https://silentsilas.com/writes/asphyxiate/</link>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/test-poem-4/</guid>
-      <description>Hey there! This will have my poetry/stories.</description>
+      <guid>https://silentsilas.com/writes/asphyxiate/</guid>
+      <description>I stopped myselfTo take a breather,But I took it far too late.My reluctant lungsCould hardly handleThe second-hand sadnessYours create.Each blessing that fallsInto your handSoon meets its matchAnd asphyxiates. </description>
     </item>
     
     <item>
-      <title>Test Poem-5</title>
-      <link>https://silentsilas.com/writes/test-poem-5/</link>
-      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <title>Rose</title>
+      <link>https://silentsilas.com/writes/rose/</link>
+      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/test-poem-5/</guid>
-      <description>Hey there! This will have my poetry/stories.</description>
+      <guid>https://silentsilas.com/writes/rose/</guid>
+      <description>I thought my heart was broken,Or its voice far too soft-spokenUntil I walked past by a grave.It was normally unkempt and bare,But today a rose sings it a prayer:A somber song their lover gave. </description>
     </item>
     
     <item>
-      <title>Test Poem-6</title>
-      <link>https://silentsilas.com/writes/test-poem-6/</link>
-      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <title>Haiku #14</title>
+      <link>https://silentsilas.com/writes/haiku--14/</link>
+      <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/test-poem-6/</guid>
-      <description>Hey there! This will have my poetry/stories.</description>
+      <guid>https://silentsilas.com/writes/haiku--14/</guid>
+      <description>He walks a long ways.He would have ran, but runningIs conspicuous. </description>
     </item>
     
     <item>
-      <title>Test Poem-7</title>
-      <link>https://silentsilas.com/writes/test-poem-7/</link>
-      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <title>Pure</title>
+      <link>https://silentsilas.com/writes/pure/</link>
+      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/test-poem-7/</guid>
-      <description>Hey there! This will have my poetry/stories.</description>
+      <guid>https://silentsilas.com/writes/pure/</guid>
+      <description>Give him your chaos,He&#39;ll give it a form.Take all that you will,He&#39;ll create even more. </description>
     </item>
     
     <item>
-      <title>Test Poem-8</title>
-      <link>https://silentsilas.com/writes/test-poem-8/</link>
-      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <title>Unintentional Internalization</title>
+      <link>https://silentsilas.com/writes/unintentional-internalization/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/test-poem-8/</guid>
-      <description>Hey there! This will have my poetry/stories.</description>
+      <guid>https://silentsilas.com/writes/unintentional-internalization/</guid>
+      <description>Our skin&#39;s as thickAs our words are sharpTo dampen the damageWe take to heart.But sometimes they pierceRight through our defenses,Despite whether the offender Had the best of intentions.It&#39;s a wound that lingersAnd leads to a scarOnce committed to memory(Which shapes who you are).For each one we&#39;ve endured,We&#39;ve dealt so many moreFor the most innocuous remarkStill can pierce like a sword.</description>
     </item>
     
     <item>
-      <title>Test Poem-9</title>
-      <link>https://silentsilas.com/writes/test-poem-9/</link>
-      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <title>Perspective</title>
+      <link>https://silentsilas.com/writes/perspective/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/test-poem-9/</guid>
-      <description>Hey there! This will have my poetry/stories.</description>
+      <guid>https://silentsilas.com/writes/perspective/</guid>
+      <description>I saw a side of myselfThat I never expectedBy taking a lookFrom another’s perspective. </description>
     </item>
     
     <item>
-      <title>Test Post</title>
-      <link>https://silentsilas.com/rants/test-blog-post/</link>
-      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <title>Placate</title>
+      <link>https://silentsilas.com/writes/placate/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/rants/test-blog-post/</guid>
-      <description>Hey there! This will have my blog posts.</description>
+      <guid>https://silentsilas.com/writes/placate/</guid>
+      <description>It&#39;s not my placeTo placate.To somewhere safe,I vacate. </description>
     </item>
     
     <item>
-      <title>Test Work</title>
-      <link>https://silentsilas.com/works/test-work/</link>
-      <pubDate>Mon, 23 Jul 2018 14:02:33 +0100</pubDate>
+      <title>Original Intent</title>
+      <link>https://silentsilas.com/writes/original-intent/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/works/test-work/</guid>
-      <description>Hey there! This will have my random projects.</description>
+      <guid>https://silentsilas.com/writes/original-intent/</guid>
+      <description>The author read The words she wroteAnd swore each word Together spokeA different message Than initially pennedIn a tone reminiscent Of a familiar friend. </description>
+    </item>
+    
+    <item>
+      <title>Bad Behavior</title>
+      <link>https://silentsilas.com/writes/bad-behavior/</link>
+      <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/bad-behavior/</guid>
+      <description>Do you happen to haveA cigarette I could bum?Just to hold in my handTo help reminisce someTo bring me back to a timeWhen I had it all togetherAnd the worst of my worriesWas exploring Minecraft&#39;s Nether.In fact, could I pleaseBorrow your lighter as well?I won&#39;t actually smoke it;I promise to not inhale.Just the act of smokingPuts my mind at easeAnd places it in Bear CreekEnjoying the summer&#39;s breeze.</description>
+    </item>
+    
+    <item>
+      <title>Signal Lost</title>
+      <link>https://silentsilas.com/writes/signal-lost/</link>
+      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/signal-lost/</guid>
+      <description>There&#39;s no reason for us to talkAs we discuss meteorological matters.Our communal cup never fills upFor each time we lose touch, it shatters.You see in me a man from before.I see in you but a shallow shoreWith a receding tideOf our friendship folklore.Is there nothing more?I&#39;ve tired of this one-sided conversationSo I&#39;ll retire and keep myself complacentWith an assuming posture And twiddling of thumbsWith the occasional interjection Of terribly clever puns.</description>
+    </item>
+    
+    <item>
+      <title>Looking Good</title>
+      <link>https://silentsilas.com/writes/looking-good/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/looking-good/</guid>
+      <description>When thingsAre looking good,You tendTo your mirror.But the clarityYou seek,You&#39;ll findTo be inferior. </description>
+    </item>
+    
+    <item>
+      <title>Haiku #13</title>
+      <link>https://silentsilas.com/writes/haiku--13/</link>
+      <pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/haiku--13/</guid>
+      <description>When you tell a lie,You tell the truth about youAnd your character. </description>
+    </item>
+    
+    <item>
+      <title>Despondent</title>
+      <link>https://silentsilas.com/writes/despondent/</link>
+      <pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/despondent/</guid>
+      <description>The holy spiritFilled your lungsAt one point.Now it’s eitherAmericanOr rolled joints. </description>
+    </item>
+    
+    <item>
+      <title>Silent Silas</title>
+      <link>https://silentsilas.com/writes/silent-silas/</link>
+      <pubDate>Tue, 20 Dec 2016 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/silent-silas/</guid>
+      <description>The windows to my soulTend to have their blinds up,And I leave the door locked tightBy keeping my own mouth shutSo my apologies if it&#39;s frustratingThat I&#39;m so cold and calculating.It&#39;s my modus operandi;You can&#39;t spell &#34;Silent&#34; without Si.But if it&#39;s any consolation,I am striving to get betterAt voicing my own thoughtsWithout resorting to writing letters.</description>
+    </item>
+    
+    <item>
+      <title>Out Of Sync</title>
+      <link>https://silentsilas.com/writes/out-of-sync/</link>
+      <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/out-of-sync/</guid>
+      <description>I heard the song Held within your heartAnd gave my bestTo play its leading part.But I could neither Determine the key,Nor predictIts syncopated beat. </description>
+    </item>
+    
+    <item>
+      <title>Spellchecker</title>
+      <link>https://silentsilas.com/writes/spellchecker/</link>
+      <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/spellchecker/</guid>
+      <description>No one should be awake At this time of night.Nothing good can comeFrom what I&#39;ll try to write.My vision&#39;s a bit blurredAs I try to typeSo I&#39;m not quite sureIf the keys I press are right,But I&#39;ve come this farSo I&#39;ll press on in spite.Thank you, Spellchecker. The overseer of my oversight. </description>
+    </item>
+    
+    <item>
+      <title>Secularization Theory</title>
+      <link>https://silentsilas.com/writes/secularization-theory/</link>
+      <pubDate>Mon, 20 Jun 2016 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/secularization-theory/</guid>
+      <description>The infiniteIs out of rangeOf the finite.The etherealIs overshadowedBy the limelight.It&#39;s expandingJust beyondOur peripheral vision.Selection biasNegatesThe tool&#39;s precision. </description>
+    </item>
+    
+    <item>
+      <title>Post Civil War Chattanooga</title>
+      <link>https://silentsilas.com/writes/post-civil-chattanooga/</link>
+      <pubDate>Wed, 25 May 2016 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/post-civil-chattanooga/</guid>
+      <description>This post-civil-war-torn-townGave refuge To the shackled and bound.This town&#39;s river bubbledWith hope from beneathTo attract the outcastAnd mask the town&#39;s deceit.Traffic soon birthedTo industrial sound.Its booming businessBroke the backs Of the beaten down.Jim Crow rose To further ostracizeAnd whiteout the spotsMissed by redlines.This town&#39;s river bubbledWith sewage from beneath.Today&#39;s gentrified watersTaste just as bittersweet.</description>
+    </item>
+    
+    <item>
+      <title>Morning Commute</title>
+      <link>https://silentsilas.com/writes/morning-commute/</link>
+      <pubDate>Tue, 10 May 2016 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/morning-commute/</guid>
+      <description>A few minutes into my morning commute I had forgotten we can all read minds.So my thought faucet ran up my brain bill Spewing a membraneous mess inside.I didn’t notice ‘til I parked the carAnd smelled the fumes from under the hood. I frantically thought of cats and cookiesTo clean up the mess, but it did no good.So I ditched the car and snuck into work,Though I knew my hopes and dreams would be seen Swirled amidst my self-doubt and worriesLike creamer mixed in bitter cups of caffeine.</description>
+    </item>
+    
+    <item>
+      <title>Quarter-Life Crisis</title>
+      <link>https://silentsilas.com/writes/quarter-life-crisis/</link>
+      <pubDate>Mon, 25 Apr 2016 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/quarter-life-crisis/</guid>
+      <description>There&#39;s nothing betterThan a quarter-life crisis.At the peak of your prime,Catching up on lost time,Fighting off vicious vicesBy keeping yourself busyAnd taking in all of the cityWithout a careFor what its price is.So long as you&#39;re no longerLeft to your own devices. </description>
+    </item>
+    
+    <item>
+      <title>In Retrospect</title>
+      <link>https://silentsilas.com/writes/in-retrospect/</link>
+      <pubDate>Fri, 25 Mar 2016 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/in-retrospect/</guid>
+      <description>Countless information&#39;s unaccounted forThe second the moment has passed.The details you do retain are blurredAnd the retention itself won&#39;t last.The data chosen to be collectedIs picked by your values and beliefs.Who&#39;s to know If the changed past guaranteesThe desired outcome&#39;s Probability to increase?(And what of The endless repercussions it&#39;s released?)In essence, To put it bluntly,Hindsight Is not 20/20.</description>
+    </item>
+    
+    <item>
+      <title>Spaghetti</title>
+      <link>https://silentsilas.com/writes/spaghetti/</link>
+      <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/spaghetti/</guid>
+      <description>A woman bowed downBefore her plate of spaghettiTo send God a prayerHe&#39;s heard a thousand times already.But Jesus was in suchA mischievous moodThat He let the woman hearWhat the Father thought of her food.&#34;There she goes againWith her cookie-cutter requestFull of empty words meantTo ensure her noodles are blessed.&#34;But the woman quickly answered,&#34;There&#39;s no need to be so rude!</description>
+    </item>
+    
+    <item>
+      <title>Haiku #12</title>
+      <link>https://silentsilas.com/writes/haiku--12/</link>
+      <pubDate>Thu, 25 Feb 2016 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/haiku--12/</guid>
+      <description>It still trickles downLong after the winds swept through.Tears outlive terror. </description>
+    </item>
+    
+    <item>
+      <title>Congenealogy</title>
+      <link>https://silentsilas.com/writes/congenealogy/</link>
+      <pubDate>Mon, 15 Feb 2016 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/congenealogy/</guid>
+      <description>I can tell by your withering leavesAnd dwindling fruits,Your outstretched branchHas lost touch with its roots.You have overextendedTo give wind its due chase,But the rush that you seekWill destroy you posthaste. </description>
+    </item>
+    
+    <item>
+      <title>You Are</title>
+      <link>https://silentsilas.com/writes/you-are/</link>
+      <pubDate>Sun, 25 Oct 2015 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/you-are/</guid>
+      <description>You&#39;re the rest of a phraseOn the tip of my tongue.You&#39;re the forgotten hookTo a song I&#39;d once sung.You&#39;re the key to a lockHanging just out of reach.You&#39;re the part of the lessonOur professors couldn&#39;t teach.You&#39;re the tough decisionMy mind could never make.You&#39;re the perfect chordI would find by mistake.You&#39;re the trivial problemsAnd their pseudo-solution.</description>
+    </item>
+    
+    <item>
+      <title>Wanderlust</title>
+      <link>https://silentsilas.com/writes/wanderlust/</link>
+      <pubDate>Fri, 25 Sep 2015 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/wanderlust/</guid>
+      <description>Do you still claim for there to beNo chance of a random possibilityBecause our God planned out eternity?But what good does that do For the likes of me?If you don&#39;t know the hand you&#39;re dealtAnd faithfulness determines not your wealth,Then why not loosen up your bible belt?We can only ascertain Our ascent To heaven or hell.The rain falls down on the wicked and the just.</description>
+    </item>
+    
+    <item>
+      <title>Sculptor</title>
+      <link>https://silentsilas.com/writes/sculptor/</link>
+      <pubDate>Sat, 15 Aug 2015 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/sculptor/</guid>
+      <description>I&#39;m sick of the secretsI keep tucked away Within my liver and lungsAt the end of each day.Soon my body Will begin to talk back.Songs full of secretsWill spill from the cracks.My apologies.I fearI&#39;m just as hollow as well.I sing doxologies,But I&#39;ll appearTo follow all hellOnce my liver and lungsBegin to talk backOnce they&#39;re sickOf the secretsSpilling from the cracksFor I knewSmoke and water Will take the formOf its vesselBut little did I knowBoth will leakWhen I wrestleMy Sculptor.</description>
+    </item>
+    
+    <item>
+      <title>Perfect Situation</title>
+      <link>https://silentsilas.com/writes/perfect-situation/</link>
+      <pubDate>Wed, 15 Jul 2015 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/perfect-situation/</guid>
+      <description>When I&#39;m hammered,I&#39;m left enamoredAnd content With the FateLady luck&#39;s prescribed.Though we neverWill land together,We&#39;re fledglingsWith new wingsTo take to the sky.I ponder your passionTo pursue aspirationsAnd wonder what magicYou&#39;ll perform upon nationsAnd I speculate the oddsGiven a perfect situationIn a parallel universeIf I&#39;d rise to the occasion. </description>
+    </item>
+    
+    <item>
+      <title>Nothing To Lose</title>
+      <link>https://silentsilas.com/writes/nothing-to-lose/</link>
+      <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/nothing-to-lose/</guid>
+      <description>You can&#39;t be let goOnce you&#39;ve clung to the truth.With your treasures in heaven,You&#39;ve got nothing to lose.Now free to live out your lifeWith nothing to proveSave for the love in your heartYou long to share with your crew. </description>
+    </item>
+    
+    <item>
+      <title>How To Tell A Good Joke</title>
+      <link>https://silentsilas.com/writes/how-to-tell-a-good-joke/</link>
+      <pubDate>Mon, 25 May 2015 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/how-to-tell-a-good-joke/</guid>
+      <description>If you promise not to tell, I have heard a good rumor:Wisdom walks hand in hand with good humor.If you&#39;re sworn to secrecy, then let it be known:Let not a word spoken compel nature to groan.If words of wisdom you believe you can afford,Then lend me your ear: Your tongue is a sword.If your lips are sealed, then read from this scroll:What comes out of your mouth reveals your soul.</description>
+    </item>
+    
+    <item>
+      <title>Homie</title>
+      <link>https://silentsilas.com/writes/homie/</link>
+      <pubDate>Fri, 15 May 2015 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/homie/</guid>
+      <description>After we had passed around our timeLike a handout from a middle school teacherWhich left us as curiously disinterestedAs the typical middle school kid-creature,I had begun to realize we all had funWhile I analyzed the past That I hold beneath my beanie.With the help of Aladdin&#39;s nameless genie,Tupac, and the also-immortal Houdini,I relived the photos we claimFrame us as fresh as a French Martini.</description>
+    </item>
+    
+    <item>
+      <title>Foolish Heart</title>
+      <link>https://silentsilas.com/writes/foolish-heart/</link>
+      <pubDate>Tue, 28 Apr 2015 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/foolish-heart/</guid>
+      <description>How redundant. </description>
+    </item>
+    
+    <item>
+      <title>Daydreaming Thomas</title>
+      <link>https://silentsilas.com/writes/daydreaming-thomas/</link>
+      <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/daydreaming-thomas/</guid>
+      <description>I sort of spaced out Into an ethereal dreamWhile she fell back Into her usual routineOf noticing Amidst the materialThat Which my eyes have never seen.She ponders for a bit in confusionThe possible reasons for my doubt,But it&#39;s the subject of possibilityThe inexplicable mind can&#39;t figure outAs I soar above the tops of buildingsAnd dive into the Atlantic oceanWith uncanny buoyancy I believedAs just another preconceived notionUntil I cast that factInto the back Of the recycle binAfter I break The REM cycleAnd consciousness clocks back in.</description>
+    </item>
+    
+    <item>
+      <title>Closets</title>
+      <link>https://silentsilas.com/writes/closets/</link>
+      <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/closets/</guid>
+      <description>Have you a fear of the darkAs I have of the light?I&#39;m afraid of what tomorrowWill reveal of tonight.A new skeleton is forged,Tucked away from your sight.But I&#39;m running out of doorsThat I may keep locked tight. </description>
+    </item>
+    
+    <item>
+      <title>Celestial Stare</title>
+      <link>https://silentsilas.com/writes/celestial-stare/</link>
+      <pubDate>Tue, 20 Jan 2015 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/celestial-stare/</guid>
+      <description>God and I locked eyes,But it&#39;s hard to look into the face of whom you fear.So instead, I gazed at the throne beneath Him;The ulterior motive for my wicked heart to draw near.God himself broke the stare as well,For it&#39;s hard to look into the face of a disappointing son.So instead, he gazed at Jesus within meWho&#39;s changing my heart &#39;til we hold staring contests for fun.</description>
+    </item>
+    
+    <item>
+      <title>Sips of Serum</title>
+      <link>https://silentsilas.com/writes/sips-of-serum/</link>
+      <pubDate>Sat, 29 Nov 2014 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/sips-of-serum/</guid>
+      <description>Honesty is the best policy
+If you&amp;rsquo;re considered prodigy.
+But I&amp;rsquo;m left a prodigal son
+With money and meals my idolatry.
+Spinning webs of lies
+To hide the mess inside.
+Donning the mask of Jekyll
+As I sip the serum of Hyde.</description>
+    </item>
+    
+    <item>
+      <title>Autumn Synesthesia</title>
+      <link>https://silentsilas.com/writes/autumn-synesthesia/</link>
+      <pubDate>Mon, 10 Nov 2014 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/autumn-synesthesia/</guid>
+      <description>The trees branch out their reds and yellows.
+Their last battle cry before the frost.
+The further north, the more pronounced
+As they recall the life they lost.
+Shouting in color upon deaf ears,
+Such beauty produced at a deadly cost.
+The reds rage on
+With blistering hate.
+&amp;ldquo;Is there no escape
+From our inevitable fate?&amp;rdquo;
+The orange reminisce
+On the seasons before.
+&amp;ldquo;Winter is knocking,
+But Spring is next door.</description>
+    </item>
+    
+    <item>
+      <title>How To Learn</title>
+      <link>https://silentsilas.com/writes/how-to-learn/</link>
+      <pubDate>Mon, 10 Nov 2014 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/how-to-learn/</guid>
+      <description>Knowledge is a splatter of color
+Across the canvas of your brain
+To gradually form a masterpiece
+With every splatter you gain.
+But these splats are not simply skills and facts,
+Else you&amp;rsquo;re left with but reds and blues.
+For hidden within every facet of life,
+Will you find colors of every shade and hue.
+But an expansive canvas is required
+If you&amp;rsquo;re to create a work of art.
+For only to those with a humble mind</description>
+    </item>
+    
+    <item>
+      <title>Klepto Couches</title>
+      <link>https://silentsilas.com/writes/klepto-couches/</link>
+      <pubDate>Mon, 27 Oct 2014 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/klepto-couches/</guid>
+      <description>My home houses countless couches.
+Klepto-couches with pickpocket pouches
+That swiftly swipe your cellular phone
+Between the cushions of their comfy unknown.
+Then your change jingles and jangles
+Until they&amp;rsquo;re untangled
+From your Wrangler jeans pocket
+As you wonder where your socks went.
+But your socks and shoes
+Were swept under your feet
+Right under your nose.
+So discreet are these deceitful seats
+As they watch you search
+For the keys they stole.</description>
+    </item>
+    
+    <item>
+      <title>Haiku #7</title>
+      <link>https://silentsilas.com/writes/haiku--7/</link>
+      <pubDate>Fri, 26 Sep 2014 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/haiku--7/</guid>
+      <description>You may interchange
+My middle name with either
+Silence or solace</description>
+    </item>
+    
+    <item>
+      <title>Haiku #8</title>
+      <link>https://silentsilas.com/writes/haiku--8/</link>
+      <pubDate>Fri, 26 Sep 2014 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/haiku--8/</guid>
+      <description>It is all folly!
+The grass withers, flowers fade,
+But the weeds still grow.</description>
+    </item>
+    
+    <item>
+      <title>Elephants</title>
+      <link>https://silentsilas.com/writes/elephants/</link>
+      <pubDate>Wed, 10 Sep 2014 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/elephants/</guid>
+      <description>Silence speaks louder than words
+At a decibel too loud to be heard
+As an abrupt disruption of nothin&amp;rsquo;
+For our conversation consumption.
+Its presence is chilling
+And instant buzz-killing
+Yet still we act
+As if it&amp;rsquo;s not there.
+Our tongues are untied
+As the silence subsides
+Yet still its message
+Hangs heavy in the air.</description>
+    </item>
+    
+    <item>
+      <title>Thought Experiment</title>
+      <link>https://silentsilas.com/writes/thought-experiment/</link>
+      <pubDate>Sun, 20 Jul 2014 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/thought-experiment/</guid>
+      <description>Love is a free fallAnd I&#39;m afraid of the ground.If I jump and no one&#39;s there,Will my body make a sound? </description>
+    </item>
+    
+    <item>
+      <title>Breakfast Blue Pt. 2</title>
+      <link>https://silentsilas.com/writes/breakfast-blue-pt.-2/</link>
+      <pubDate>Tue, 20 May 2014 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/breakfast-blue-pt.-2/</guid>
+      <description>Oh, my good friend, I didn&amp;rsquo;t mean to leave.
+It wasn&amp;rsquo;t your fault, so no longer grieve!
+If I could, I would run back to your side.
+But, alas, a lack of legs slows my stride.
+It&amp;rsquo;s been over a year since I&amp;rsquo;ve last seen
+Your serious face and Chartwell&amp;rsquo;s cuisine.
+Often I think this is for the better
+\&amp;lsquo;Til I shed tears as I read your letter.
+Fake tears, that is, for I also lack eyes.</description>
+    </item>
+    
+    <item>
+      <title>Note To Self</title>
+      <link>https://silentsilas.com/writes/note-to-self/</link>
+      <pubDate>Mon, 20 Jan 2014 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/note-to-self/</guid>
+      <description>Take a few bets
+That can&amp;rsquo;t be won.
+Accomplish a task
+That can&amp;rsquo;t be done.
+Face the fears
+That can&amp;rsquo;t be outrun.
+Be a guiding light
+When we&amp;rsquo;ve lost sight
+Of the sun.</description>
+    </item>
+    
+    <item>
+      <title>Afternoon</title>
+      <link>https://silentsilas.com/writes/afternoon/</link>
+      <pubDate>Fri, 10 Jan 2014 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/afternoon/</guid>
+      <description>I spent three quarters
+On a whole cookie
+To hear its half-baked
+Two cents.</description>
+    </item>
+    
+    <item>
+      <title>New Year&#39;s Retribution</title>
+      <link>https://silentsilas.com/writes/new-year-s-retribution/</link>
+      <pubDate>Fri, 10 Jan 2014 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/new-year-s-retribution/</guid>
+      <description>Our past predicts how prone we are
+To repeat our mistakes in the present.
+New Year resolutions are made
+To prove ourselves convalescent.
+Never again shall we regress
+Back to our frail and Fallen state.
+Instead, transform into super humans
+Gaining skills and losing weight.
+Only then will we be pleased
+With who we see in the mirror.
+On the contrary, oft&amp;rsquo; we find
+What harms us, we hold dearer.</description>
+    </item>
+    
+    <item>
+      <title>Who Am I?</title>
+      <link>https://silentsilas.com/writes/who-am-i-/</link>
+      <pubDate>Fri, 10 May 2013 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/who-am-i-/</guid>
+      <description>Am I the clothes on my back
+And the hair on my head?
+Am I the people I&amp;rsquo;m with
+And the words I&amp;rsquo;ve said?
+Am I the field I study
+And the school I attend?
+Am I the programs I write
+And the poems I&amp;rsquo;ve penned?
+Am I the music I enjoy
+And the guitar I play?
+Am I the grade on my test
+And my ten page essay?
+Am I the habits I&amp;rsquo;ve formed</description>
+    </item>
+    
+    <item>
+      <title>Leafscaping</title>
+      <link>https://silentsilas.com/writes/leafscaping/</link>
+      <pubDate>Mon, 22 Apr 2013 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/leafscaping/</guid>
+      <description>Hours of raking and blowing of leaves
+Only to have twice more fall from the trees
+By the friendly frolic of an Autumn breeze.
+Yet there in the distance an object appears
+By the result of your blood, sweat, and tears;
+It&amp;rsquo;s the manifestation of your misplaced fears!
+As you creep ever closer to the object in sight,
+It&amp;rsquo;s not long before you&amp;rsquo;re filled with delight
+As your landlocked body begins to take flight</description>
+    </item>
+    
+    <item>
+      <title>Ill With Want</title>
+      <link>https://silentsilas.com/writes/ill-with-want/</link>
+      <pubDate>Wed, 10 Apr 2013 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/ill-with-want/</guid>
+      <description>I could travel across the land
+Searching far and wide,
+But the grass will still seem greener
+On the other side.
+I could be surrounded by people who love me
+Yet still feel I don&amp;rsquo;t belong.
+I could think I&amp;rsquo;m a terrible person
+Despite how often told I&amp;rsquo;m wrong.
+I could accomplish several amazing feats
+Yet still believe I&amp;rsquo;m inadequate.
+I could try my best to be nice
+Yet still remain the Devil&amp;rsquo;s Advocate.</description>
+    </item>
+    
+    <item>
+      <title>Haiku #4</title>
+      <link>https://silentsilas.com/writes/haiku--4/</link>
+      <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/haiku--4/</guid>
+      <description>I wish I could draw.
+Picture&amp;rsquo;s worth a thousand words;
+This has just fourteen.</description>
+    </item>
+    
+    <item>
+      <title>Breakfast Blues</title>
+      <link>https://silentsilas.com/writes/breakfast-blues/</link>
+      <pubDate>Thu, 10 Jan 2013 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/breakfast-blues/</guid>
+      <description>Lost my reason to wake in the morning
+Ever since you left me without warning.
+We&amp;rsquo;ve always seemed to have gotten along
+Now I&amp;rsquo;m wondering if I did you wrong.
+Lost my reason to give you thanks and praise.
+Each day that passes passes in a daze.
+The life I live is a life of decay.
+My happiness happens to never stay.
+I would have treated you so much better,</description>
+    </item>
+    
+    <item>
+      <title>Verbal Blunder</title>
+      <link>https://silentsilas.com/writes/verbal-blunder/</link>
+      <pubDate>Mon, 05 Nov 2012 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/verbal-blunder/</guid>
+      <description>No!
+That was simply a slip of the tongue.
+Is it too late for me to play along?
+I fear I&amp;rsquo;m no longer as mysterious,
+As wise, and as fearless
+As I&amp;rsquo;ve implied myself to be.
+I&amp;rsquo;ve revealed my true colors.
+I&amp;rsquo;ll soon be discovered;
+This shall show my sheer stupidity!
+\&amp;lsquo;Tis time to hang up my hat and accept this mistake
+Since it seems I don&amp;rsquo;t quite have what it takes</description>
+    </item>
+    
+    <item>
+      <title>New Student</title>
+      <link>https://silentsilas.com/writes/new-student/</link>
+      <pubDate>Thu, 15 Mar 2012 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/new-student/</guid>
+      <description>Please present yourself to the class
+By sharing none of your secret past
+Tell us your residence, your aspirations,
+Your chosen major&amp;rsquo;s concentration,
+And maybe some more background knowledge
+As to why you&amp;rsquo;re attending this specific college.
+But anything more is unnecessary
+I mean, who cares your birthday&amp;rsquo;s in February?
+We learn not by the things you say
+But by the image you portray
+From the way you walk, talk, and stare</description>
+    </item>
+    
+    <item>
+      <title>Monday Morning Shift</title>
+      <link>https://silentsilas.com/writes/monday-morning-shift/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/monday-morning-shift/</guid>
+      <description>These plants look beautiful, but not at this location.
+They must be eradicated according to administration.
+I brought out my tools; Some gloves and a spade,
+Then sat down, Indian style, to begin the raid.
+The roots, like little fingers, held on to dear life
+As I cut through their homes with an oddly-shaped knife.
+To justify these cruel killings
+I thought of what they&amp;rsquo;ve done:
+Suffocated the superior plants</description>
+    </item>
+    
+    <item>
+      <title>Leafblower</title>
+      <link>https://silentsilas.com/writes/leafblower/</link>
+      <pubDate>Sat, 25 Feb 2012 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/leafblower/</guid>
+      <description>You&amp;rsquo;re the girl sitting on the park bench.
+I&amp;rsquo;m the guy with a leaf blower.
+I&amp;rsquo;ve gotta do my job,
+So would you kindly please move over?
+I&amp;rsquo;m walking right towards you,
+So don&amp;rsquo;t say you didn&amp;rsquo;t notice me.
+I&amp;rsquo;d like to get off work soon,
+So I&amp;rsquo;ll give you until the count of three.
+One
+Two
+&amp;hellip;
+Alright, so you&amp;rsquo;ve called my bluff.
+I&amp;rsquo;m not really going to do anything.</description>
+    </item>
+    
+    <item>
+      <title>Haiku #3</title>
+      <link>https://silentsilas.com/writes/haiku--3/</link>
+      <pubDate>Wed, 22 Feb 2012 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/haiku--3/</guid>
+      <description>We&amp;rsquo;re in a hurry.
+Now by watching us humans,
+The cold wind is too.</description>
+    </item>
+    
+    <item>
+      <title>Booming Voice</title>
+      <link>https://silentsilas.com/writes/booming-voice/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/booming-voice/</guid>
+      <description>Silent explosions amidst the stars.
+Booming voices that created Mars.
+Yet Earth only his finger is placed
+And filled it with creatures the devil faced.
+All of creation has now withered
+Thanks to the one who now slithers.
+But a complex plan has been made,
+And ages later death is slayed.
+God is never seen yet is all-seeing
+Of all the actions of human beings.
+His guiding voice amidst speeding cars</description>
+    </item>
+    
+    <item>
+      <title>Silent Sound</title>
+      <link>https://silentsilas.com/writes/silent-sound/</link>
+      <pubDate>Mon, 11 Apr 2011 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/silent-sound/</guid>
+      <description>Safely set inside this song
+Are silent sounds we passed along.
+Secret though we seek to know
+Signs of its new secret show.
+Silence hides up in the skies
+Far from folks, cars, and lies.
+It only lives to watch us die,
+For that is when our souls arrive
+And silent sounds are synthesized.</description>
+    </item>
+    
+    <item>
+      <title>Dreams Spill</title>
+      <link>https://silentsilas.com/writes/dreams-spill/</link>
+      <pubDate>Mon, 10 Jan 2011 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/dreams-spill/</guid>
+      <description>When you wake up,
+Be sure to lay still
+Lest your dreams spill
+Out like a cup
+From a drink offering.</description>
     </item>
     
   </channel>

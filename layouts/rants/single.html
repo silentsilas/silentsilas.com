@@ -1,7 +1,28 @@
 {{ partial "header.html" . }}
 <div class="fl w-25-ns pa2"></div>
-<div class="post-content fl w-100 w-50-ns">
-    {{ .Content }}
-</div>
+<main class="post fl w-100 w-50-ns">
+    
+    <div class="post-content">
+        <h3>
+            {{ .Title }}
+        </h3>
+        {{ .Content }}
+    </div>
+    
+    <div class="pagination">
+        <span class="linklist_prev">
+            {{ with .PrevInSection }}
+            <a href="{{ .Permalink }}">&lt;&lt; </a><a href="{{ .Permalink }}" class="linklist_prevtitle">{{ .Title }}</a> 
+            {{ end }}
+        </span>
+    |
+        <span class="linklist_next">
+            {{ with .NextInSection }}
+            <a href="{{ .Permalink }}" class="linklist_nexttitle">{{ .Title }}</a><a href="{{ .Permalink }}"> &gt;&gt;</a>
+            {{ end }}
+        </span>
+    </div>
+    
+</main>
 <div class="fl w-25-ns pa2"></div>
 {{ partial "footer.html" . }}

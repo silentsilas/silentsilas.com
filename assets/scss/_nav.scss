@@ -6,15 +6,18 @@
     top: 0;
     width: 100%;
     // height: 100%;
-    border-bottom: 2px solid rgba(230, 230, 230, 0.5);
+    border-bottom: 2px solid rgba(60, 220, 60, 1);
     font-size: 14px;
 
     background-color: rgba(0,0,0,0.5);
     color: #efefef;
 
     .nav_options {
-        position: relative;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
         height: 100%;
+        width: 100%;
         user-select: none;
         display: none;
         opacity: 0;
@@ -29,13 +32,19 @@
 
     .nav_name, .nav_option {
         color: rgba(230, 230, 230, 0.9);
+
         &:hover {
             color: #efefef;
         }
     }
+    .nav_option {
+        background-color: rgba(0,0,0,0.75);
+        border-bottom: 2px solid rgba(60, 220, 60, 1);
+        padding: 22px;
+    }
 
     .menu_icon {
-        display: inline-block;
+        display: block;
         cursor: pointer;
         position: absolute;
         left: 10%;
@@ -67,14 +76,26 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
+        
     }
     @media screen and (min-width:30em) {
+        border-bottom: none;
         .nav_options {
+            position: relative;
+            left: 0px;
+            transform: translateX(0%);
             display: block;
             opacity: 1;
         }
         .nav_name {
-            text-align: right;
+            a {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translateX(-50%) translateY(-50%);
+            }
+            // border-right: 2px solid rgba(60, 220, 60, 1);
+            height: 100%;
         }
         .menu_icon {
             display: none;

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lovers on Silence Speaks</title>
+    <link>https://silentsilas.com/tags/lovers/</link>
+    <description>Recent content in Lovers on Silence Speaks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>me@silentsilas.com (Silent Silas)</managingEditor>
+    <webMaster>me@silentsilas.com (Silent Silas)</webMaster>
+    <lastBuildDate>Tue, 13 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://silentsilas.com/tags/lovers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rose</title>
+      <link>https://silentsilas.com/writes/rose/</link>
+      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/rose/</guid>
+      <description>I thought my heart was broken,Or its voice far too soft-spokenUntil I walked past by a grave.It was normally unkempt and bare,But today a rose sings it a prayer:A somber song their lover gave. </description>
+    </item>
+    
+  </channel>
+</rss>

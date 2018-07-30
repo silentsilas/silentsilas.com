@@ -1,10 +1,12 @@
 {{ partial "header.html" . }}
 	<div class="fl w-25-ns pa2"></div>
 	<main class="fl w-100 w-50-ns ">
-		{{ $paginator := .Paginate (where .Data.Pages "Type" "writes") }}
-		{{ range $paginator.Pages }}
-			{{ partial "linklist.html" . }}
-		{{ end }}
+		<div class="linklist">
+			{{ $paginator := .Paginate (where .Data.Pages "Type" "writes") }}
+			{{ range $paginator.Pages }}
+				{{ partial "linklist.html" . }}
+			{{ end }}
+		</div>
 		{{ partial "pagination.html" . }}
 	</main>
 	<div class="fl w-25-ns pa2"></div>

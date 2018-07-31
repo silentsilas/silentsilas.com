@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
     <head>
             <meta charset="UTF-8">
@@ -11,6 +11,9 @@
             {{ $style := slice $tachyons $scss | resources.Concat "app.css" | fingerprint }} 
             <link rel="stylesheet" href="{{ $style.Permalink }}" emotion="🤩">
 
+
+            {{ $analytics := resources.Get "js/analytics.js" | resources.Minify | resources.Fingerprint }}
+            <script src="{{ $analytics.Permalink }}"></script>
             
             {{ $js := resources.Get "js/dist/bundle.js" | resources.Fingerprint }}
             <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>

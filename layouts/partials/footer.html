@@ -1,6 +1,3 @@
 
-{{ $analytics := resources.Get "js/analytics.js" | resources.Minify | resources.Fingerprint }}
-<script src="{{ $analytics.Permalink }}"></script>
-
 </body>
 </html>

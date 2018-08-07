@@ -38,6 +38,7 @@ html, body {
 
     text-align: center;
     user-select: none;
+    pointer-events: none;
 }
 
 .post-title {
@@ -73,6 +74,10 @@ main {
 }
 .linklist_nexttitle, .linklist_prevtitle {
     display: none;
+}
+
+.article_footer {
+    font-size: x-small;
 }
 
 .pagination {

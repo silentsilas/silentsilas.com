@@ -73,7 +73,10 @@ function AnimatePoints() {
     document.querySelector(".particles_left").addEventListener('click', LeftControl);
     document.querySelector(".particles_right").addEventListener('click', RightControl);
 
-    document.addEventListener('mousemove', OnMouseMove);
+    canvasElement.addEventListener('mousemove', OnMouseMove);
+
+    canvasElement.addEventListener('touchstart', OnTouchMove, false);
+    canvasElement.addEventListener('touchmove', OnTouchMove, false);
 
     var geometry = new THREE.Geometry();
     var material = new THREE.PointsMaterial({
@@ -201,6 +204,11 @@ function AnimatePoints() {
     function OnMouseMove(e) {
         mouse.x = e.clientX;
         mouse.y = e.clientY;
+    }
+
+    function OnTouchMove(event) {
+        mouse.x = event.touches[0].clientX;
+        mouse.y = event.touches[0].clientY;
     }
 
     function RightControl() {

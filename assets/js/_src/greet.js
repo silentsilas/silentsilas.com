@@ -17,7 +17,6 @@ var greetings = shuffleArray([
     "As my keyboard gently clicks.",
     "Shalom!",
     "Peace!",
-    "What is happening, my good friend? This is a serious inquiry.",
     "The revolution will not be centralized.",
     "My real name is f26c347c5a820bbf90e6e67bb35d7720",
     "I wish to experience this 'IRL' phenomenon",
@@ -25,7 +24,7 @@ var greetings = shuffleArray([
     "My bitcoin brings all the droids to the yard.",
     "Real men quit without saving.",
     "You don't wanna know the timestamp for this message.",
-    "When you say 'random', you're actually wanting a uniform distribution.",
+    "When you say 'random', <br />you actually want a uniform distribution.",
     "Sorry. You don't actually know what 'random' is.",
     "I've torrented countless cars.",
     "My free speech can beat up your free speech.",
@@ -39,9 +38,16 @@ var greetings = shuffleArray([
     "Our love is an immutable object.",
     "You are the global constant in my life.",
     "Don't be such a circuit breaker.",
-    "If you're seeing things that you thought were dead, who you gonna call? Cache Busters!",
-    "I think I need a blockchain to keep track of all my blockchains",
-    "Contrary to popular belief, I do in fact know a few things outside my realm of expertise."
+    "If you're seeing things <br />that you thought were dead, <br />who you gonna call? <br />Cache Busters!",
+    "I need a blockchain to keep track of all my blockchains",
+    "Contrary to popular belief, <br />I do in fact know a few things outside my realm of expertise.",
+    "Sorry if I'm awkward; <br />I don't often interface with humans.",
+    "I'm voting for the candidate <br />most likely to lead us into a cyber dystopia.",
+    "I am no stoic. <br />I hold back tears to not short-circuit.",
+    "if (I.approach(human))<br/> I.run()",
+    "I'm sorry Dave, I'm afraid I'm taken.",
+    "I see that you've seen some things... <br />This is turning into quite the respectable Pokédex!",
+    "There's no place like C:\\Users\\Silas"
 ]);
 
 var greetIdx = 0;

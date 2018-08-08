@@ -9,6 +9,9 @@ document.addEventListener("turbolinks:load", function() {
     const greetEl = document.getElementById("greeting");
     const particlesEl = document.getElementById("particles");
     const fpEl = document.getElementById("fingerprint");
+
+    // My revolutionary method of determining which JS
+    // needs to run on which page
     if (greetEl != null) {
         ShowGreet(greetEl);
     } 
@@ -19,9 +22,7 @@ document.addEventListener("turbolinks:load", function() {
         InitFingerprint(fpEl);
     }
     
-    
 });
-InitNav();
-// document.addEventListener("turbolinks:unload", function() {
 
-// });
+// Only need to init this once when using TurboLinks
+InitNav();

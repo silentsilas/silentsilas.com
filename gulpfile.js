@@ -6,6 +6,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var buffer = require('vinyl-buffer');
 var gutil = require("gulp-util");
 var sass = require('gulp-sass');
+var uglify = require('gulp-uglify');
 
 gulp.task('sass', function() {
     return gulp.src('assets/scss/**/*.scss') // Gets all files ending with .scss in app/scss and children dirs
@@ -29,6 +30,10 @@ function bundle() {
     return watchedBrowserify
         .bundle()
         .pipe(source('bundle.js'))
+        .pipe(buffer())
+        .pipe(sourcemaps.init({loadMaps: true}))
+        .pipe(uglify())
+        .pipe(sourcemaps.write('./'))
         .pipe(gulp.dest("assets/js/dist"));
 }
 
@@ -37,8 +42,9 @@ gulp.task('default', function () {
     .bundle()
     .pipe(source('bundle.js'))
     .pipe(buffer())
-    // .pipe(sourcemaps.init({loadMaps: true}))
-    // .pipe(sourcemaps.write('./'))
+    .pipe(sourcemaps.init({loadMaps: true}))
+    .pipe(uglify())
+    .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('assets/js/dist'));
 });
 

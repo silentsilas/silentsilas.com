@@ -29,5 +29,5 @@ This type of invasive tracking, on the other hand, is also used to flag suspicio
 But it's hard to know what goes on behind the curtains. Those sites providing these security services could also be using that same personal information in many other ways. The EU's <a href="https://www.eugdpr.org/">GDPR</a> is supposed to ensure companies are transparent about what's done with such information, but it's difficult to enforce and easy to evade.
 
 {{< article_footer footer_content="[0]: You put all the information together and run it through a 'hashing algorithm'. The same information will always result in the same string of numbers and letters. A slight change in this information (like if the user updates their browser) will result in a vastly different string, so additional work has to be done for this tracking to be effective." >}}
-
+<br />
 {{< article_footer footer_content="[1]: A much more effective way to thwart malicious login attempts is to use a password manager so that you don't reuse passwords and/or use easy-to-guess passwords. But that's a post for another day." >}}

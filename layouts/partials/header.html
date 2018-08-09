@@ -9,13 +9,13 @@
             {{ $scss := resources.Get "css/main.css" }} 
             {{ $tachyons := resources.Get "css/tachyons.min.css" }}
             {{ $style := slice $tachyons $scss | resources.Concat "app.css" | fingerprint }} 
-            <link rel="stylesheet" href="{{ $style.Permalink }}" emotion="🤩">
+            <link rel="stylesheet" href="{{ $style.Permalink }}">
             
             {{ $js := resources.Get "js/dist/bundle.js" | resources.Fingerprint }}
-            <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+            <script src="{{ $js.Permalink }}" defer></script>
 
             {{ $turbolinks := resources.Get "js/turbolinks.js" | resources.Fingerprint }}
-            <script src="{{ $turbolinks.Permalink }}" integrity="{{ $turbolinks.Data.Integrity }}"></script>
+            <script src="{{ $turbolinks.Permalink }}"></script>
         </head>
     {{ if .IsHome }}
     <body class="home">

@@ -21,7 +21,7 @@ document.addEventListener("turbolinks:load", function() {
     if (fpEl != null) {
         InitFingerprint(fpEl);
     }
-    
+ 
 });
 
 // Only need to init this once when using TurboLinks

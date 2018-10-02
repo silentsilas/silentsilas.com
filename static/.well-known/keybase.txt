@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/prophesi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://silentsilas.com
+  * I am prophesi (https://keybase.io/prophesi) on keybase.
+  * I have a public key with fingerprint C62C F997 DAFD F84C C059  DE16 3583 8742 50B8 8B06
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120bf72a0303753f87d589db5f0b2a3c6ced8bc9bab6e040f0d233bd0180c88a2290a",
+      "fingerprint": "c62cf997dafdf84cc059de163583874250b88b06",
+      "host": "keybase.io",
+      "key_id": "3583874250b88b06",
+      "kid": "0101c9e14d92be382f8b2da499edc7f1ba859655c97e26857e0669d2482e5ec861970a",
+      "uid": "eae3701656b3935d2d99125bbae14919",
+      "username": "prophesi"
+    },
+    "service": {
+      "hostname": "silentsilas.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1538449679,
+  "expire_in": 157680000,
+  "prev": "7fedd68b4fa60920bafd78cdfca95199f95fb648594529814a8e4833824d49c9",
+  "seqno": 57,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMNyAnicbVJtUFRVGF4EFuWbIRC1GLilVix07vc5iJmoE1MNYKZG1Cz3nnvucgF3
+l73L8umkY8SAg2EkUpJI6WCDmDlFaAwNaTIKxQgpylAhCSZO7IzFVFMD3WX0X+fH
+OXPe8zzP+7zvey6G+ZuC/fh9NenZ3fvNfgN9R0pMuWdvRVRSskMpp1IrqUKyeJAi
+hehua6GmUKkUoBkgqyIjARawIs+qUFR4iBSZV4HMSCwWMFGgjJEsyQIBHFCBwrCs
+rAAaAgyhxDAISJSFUjW7jbicLs3uNmSxwGAVIVGRVEWFHMaARwqhBZaHLBQ5hgcy
+hDIQDGK+Q/cxDHOypJMUzWHEjIt10d7/4B/6BjRGhOYUxMiEhYwKZUaROISIgkWV
+liXII4HnMRIJI0BeJEAQkMJwkCE8wVCgkbjou2RRjkiEFQEt8ILMIpZXGAUhmuFl
+WTJSIBr5gDpx2aVdxEA7XQ5nPtE1areFMqIeDRNfY32VPEDoWhGxu41d0lOwY5dB
+NzhuB3YUGY/5brdTT/WR3eVOH7qUyNYHOlZZsytGKw2Gh7h0zWGnUmkDid2aT5jm
+WchxSBCRhSJlTs1FrJoPwYsCBMby5SEeQ1JUiaIIUOZUSQDImLExCBFiRcUS4mmE
+VMSrssAZTeJ4BkGakyDhIGs0klM4hH0F66TY7qBSedHwKdkWi7LZJXeJi1C7v+l7
+PcDkF2wyBy7x/TFT8LLIhz8vYE+k6XifVzbHPLJ6qqrhk84My0SCI+7TrYO/55Qu
+tEdRF+JrJoDmDXoKVLSpl6+qI3c/+9cznP8HiF8xE9m576X6FUMhiY9/GJBlCu/z
+a66eTzsXodE4NHPdFxm580fv6BlWa/HPgfaW4a2rHnt+6tGClrz39q4PGeyYvNGI
+K4PsZeUrtzWvudRUVjW6BTx38dfTtX76vRv2nXm99bUl3+Gu2wXj9T2hmUtPtoSV
+xAedJyMhx/yZDSeTDo01dB1868rkOnuHNNdtXlVXkT3Qr85Nr28a+zzsRHBlTO/p
+gX5r+kLBqx5b79m0npiEiBc3/tm68SvXeTDXdLspNvprIdXbkawH7R1yDx06+M/h
+v3JA6Gh10DPFbY2zpzISO/3Lc17DlXGzE0kzXTnvbKkNjMVZh+vHPvhFuv9kSsXy
+xP0zr9xsW5vcM5e1sh1mLyQvDX676P7qANocHnWVujNUMX/q2QsNXTdnN3uTekKX
+5y054Lw2aKnxJuWeaG55YZOzznl5rr7DvOPuwEc/fds6kf5DXXhF8bijPXPaZrri
+qUnqLzmScctxPW6am7rUXJZwxtx4z/R0yPb0sgL6ure71zLKrJ06k5ZetWbn9l5b
+9I9m87GpDcyOTbGmiu+PRplHn4hqp8fxueq/lcL62RE8/O4brdsmnWjZy5snQyKP
+f9n6ZnntnvevffybGF2a8x9G87We
+=H89+
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/prophesi
+
+==================================================================

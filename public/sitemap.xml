@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://silentsilas.com/writes/take-time/</loc>
+    <lastmod>2018-12-22T16:27:46-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://silentsilas.com/writes/lawncare/</loc>
+    <lastmod>2018-09-20T16:27:46-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://silentsilas.com/rants/whispers-in-the-wind/</loc>
     <lastmod>2018-08-06T23:04:08+00:00</lastmod>
   </url>
@@ -10,6 +20,11 @@
   <url>
     <loc>https://silentsilas.com/rants/silence-is-golden/</loc>
     <lastmod>2018-07-29T23:04:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://silentsilas.com/writes/inept/</loc>
+    <lastmod>2018-07-08T16:27:46-04:00</lastmod>
   </url>
   
   <url>
@@ -329,13 +344,19 @@
   
   <url>
     <loc>https://silentsilas.com/tags/advice/</loc>
-    <lastmod>2015-05-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-22T16:27:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://silentsilas.com/tags/alliteration/</loc>
     <lastmod>2011-04-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://silentsilas.com/tags/anger/</loc>
+    <lastmod>2018-12-22T16:27:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -348,6 +369,12 @@
   <url>
     <loc>https://silentsilas.com/categories/blog/</loc>
     <lastmod>2018-08-06T23:04:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://silentsilas.com/tags/cars/</loc>
+    <lastmod>2018-12-22T16:27:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -580,6 +607,12 @@
   </url>
   
   <url>
+    <loc>https://silentsilas.com/tags/neighbors/</loc>
+    <lastmod>2018-09-20T16:27:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://silentsilas.com/tags/new-years/</loc>
     <lastmod>2015-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -599,7 +632,7 @@
   
   <url>
     <loc>https://silentsilas.com/categories/poetry/</loc>
-    <lastmod>2018-06-25T16:27:46-04:00</lastmod>
+    <lastmod>2018-12-22T16:27:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -687,6 +720,12 @@
   </url>
   
   <url>
+    <loc>https://silentsilas.com/tags/shame/</loc>
+    <lastmod>2018-09-20T16:27:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://silentsilas.com/tags/short/</loc>
     <lastmod>2018-01-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -700,7 +739,7 @@
   
   <url>
     <loc>https://silentsilas.com/</loc>
-    <lastmod>2018-08-06T23:04:08+00:00</lastmod>
+    <lastmod>2018-12-22T16:27:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -730,13 +769,19 @@
   
   <url>
     <loc>https://silentsilas.com/tags/</loc>
-    <lastmod>2015-05-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-22T16:27:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://silentsilas.com/tags/terror/</loc>
     <lastmod>2016-02-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://silentsilas.com/tags/time/</loc>
+    <lastmod>2018-12-22T16:27:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -796,7 +841,7 @@
   
   <url>
     <loc>https://silentsilas.com/writes/</loc>
-    <lastmod>2018-06-25T16:27:46-04:00</lastmod>
+    <lastmod>2018-12-22T16:27:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   

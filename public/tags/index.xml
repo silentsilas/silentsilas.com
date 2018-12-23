@@ -8,7 +8,7 @@
     <language>en-us</language>
     <managingEditor>me@silentsilas.com (Silent Silas)</managingEditor>
     <webMaster>me@silentsilas.com (Silent Silas)</webMaster>
-    <lastBuildDate>Mon, 25 May 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Dec 2018 16:27:46 -0400</lastBuildDate>
     
 	<atom:link href="https://silentsilas.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,7 +16,7 @@
     <item>
       <title>Advice</title>
       <link>https://silentsilas.com/tags/advice/</link>
-      <pubDate>Mon, 25 May 2015 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 22 Dec 2018 16:27:46 -0400</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
       <guid>https://silentsilas.com/tags/advice/</guid>
       <description></description>
@@ -32,11 +32,29 @@
     </item>
     
     <item>
+      <title>Anger</title>
+      <link>https://silentsilas.com/tags/anger/</link>
+      <pubDate>Sat, 22 Dec 2018 16:27:46 -0400</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/tags/anger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Atrophy</title>
       <link>https://silentsilas.com/tags/atrophy/</link>
       <pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
       <guid>https://silentsilas.com/tags/atrophy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cars</title>
+      <link>https://silentsilas.com/tags/cars/</link>
+      <pubDate>Sat, 22 Dec 2018 16:27:46 -0400</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/tags/cars/</guid>
       <description></description>
     </item>
     
@@ -374,6 +392,15 @@
     </item>
     
     <item>
+      <title>Neighbors</title>
+      <link>https://silentsilas.com/tags/neighbors/</link>
+      <pubDate>Thu, 20 Sep 2018 16:27:46 -0400</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/tags/neighbors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>New Years</title>
       <link>https://silentsilas.com/tags/new-years/</link>
       <pubDate>Sun, 25 Oct 2015 00:00:00 +0000</pubDate>
@@ -500,6 +527,15 @@
     </item>
     
     <item>
+      <title>Shame</title>
+      <link>https://silentsilas.com/tags/shame/</link>
+      <pubDate>Thu, 20 Sep 2018 16:27:46 -0400</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/tags/shame/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Short</title>
       <link>https://silentsilas.com/tags/short/</link>
       <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
@@ -559,6 +595,15 @@
       <pubDate>Thu, 25 Feb 2016 00:00:00 +0000</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
       <guid>https://silentsilas.com/tags/terror/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time</title>
+      <link>https://silentsilas.com/tags/time/</link>
+      <pubDate>Sat, 22 Dec 2018 16:27:46 -0400</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/tags/time/</guid>
       <description></description>
     </item>
     

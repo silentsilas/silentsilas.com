@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metaphor on Silence Speaks</title>
+    <link>https://silentsilas.com/tags/metaphor/</link>
+    <description>Recent content in Metaphor on Silence Speaks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>me@silentsilas.com (Silent Silas)</managingEditor>
+    <webMaster>me@silentsilas.com (Silent Silas)</webMaster>
+    <lastBuildDate>Wed, 09 Jan 2019 12:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://silentsilas.com/tags/metaphor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Catch Up</title>
+      <link>https://silentsilas.com/writes/catch-up/</link>
+      <pubDate>Wed, 09 Jan 2019 12:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/catch-up/</guid>
+      <description>To your disbelief,This moment passed.You chased it down,But it runs too fast.It&#39;s one step aheadIn the wrong directionUntil you&#39;re lostIn imperfection.==To your relief,This moment passed.But you couldn&#39;t runFrom its aftermath.You sought out shelterBut had to keep movingAfter planting the flowersYou&#39;d never see blooming. </description>
+    </item>
+    
+  </channel>
+</rss>

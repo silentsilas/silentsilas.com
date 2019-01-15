@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introspective on Silence Speaks</title>
-    <link>https://silentsilas.com/tags/introspective/</link>
-    <description>Recent content in Introspective on Silence Speaks</description>
+    <title>Lies on Silence Speaks</title>
+    <link>https://silentsilas.com/tags/lies/</link>
+    <description>Recent content in Lies on Silence Speaks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>me@silentsilas.com (Silent Silas)</managingEditor>
     <webMaster>me@silentsilas.com (Silent Silas)</webMaster>
     <lastBuildDate>Tue, 15 Jan 2019 12:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://silentsilas.com/tags/introspective/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://silentsilas.com/tags/lies/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <author>me@silentsilas.com (Silent Silas)</author>
       <guid>https://silentsilas.com/writes/fool-yourself/</guid>
       <description>You knew that they were joking,But over time, the lies took root.It&#39;s a belief you couldn&#39;t shakeWithout their Fate becoming Truth.You are what they say,And they&#39;ve said quite a lot.The more you fight against it,The more that must be fought. </description>
-    </item>
-    
-    <item>
-      <title>Silent Silas</title>
-      <link>https://silentsilas.com/writes/silent-silas/</link>
-      <pubDate>Tue, 20 Dec 2016 00:00:00 +0000</pubDate>
-      <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/silent-silas/</guid>
-      <description>The windows to my soulTend to have their blinds up,And I leave the door locked tightBy keeping my own mouth shutSo my apologies if it&#39;s frustratingThat I&#39;m so cold and calculating.It&#39;s my modus operandi;You can&#39;t spell &#34;Silent&#34; without Si.But if it&#39;s any consolation,I am striving to get betterAt voicing my own thoughtsWithout resorting to writing letters.</description>
     </item>
     
   </channel>

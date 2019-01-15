@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://silentsilas.com/writes/fool-yourself/</loc>
+    <lastmod>2019-01-15T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://silentsilas.com/writes/catch-up/</loc>
     <lastmod>2019-01-09T12:00:00+00:00</lastmod>
   </url>
@@ -559,7 +564,7 @@
   
   <url>
     <loc>https://silentsilas.com/tags/introspective/</loc>
-    <lastmod>2016-12-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-15T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -572,6 +577,12 @@
   <url>
     <loc>https://silentsilas.com/tags/lessons/</loc>
     <lastmod>2018-06-25T16:27:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://silentsilas.com/tags/lies/</loc>
+    <lastmod>2019-01-15T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -643,7 +654,7 @@
   
   <url>
     <loc>https://silentsilas.com/categories/poetry/</loc>
-    <lastmod>2019-01-09T12:00:00+00:00</lastmod>
+    <lastmod>2019-01-15T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -750,7 +761,7 @@
   
   <url>
     <loc>https://silentsilas.com/</loc>
-    <lastmod>2019-01-09T12:00:00+00:00</lastmod>
+    <lastmod>2019-01-15T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -828,7 +839,7 @@
   
   <url>
     <loc>https://silentsilas.com/tags/wisdom/</loc>
-    <lastmod>2019-01-09T12:00:00+00:00</lastmod>
+    <lastmod>2019-01-15T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -852,7 +863,7 @@
   
   <url>
     <loc>https://silentsilas.com/writes/</loc>
-    <lastmod>2019-01-09T12:00:00+00:00</lastmod>
+    <lastmod>2019-01-15T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

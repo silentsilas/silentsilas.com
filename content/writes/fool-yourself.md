@@ -16,7 +16,7 @@ It's a belief you couldn't shake
 Without their Fate becoming Truth.
 
 You are what they say,
-And  they've said quite a lot.
+And they've said quite a lot.
 The more you fight against it,
 The more that must be fought.
 {{< / poem >}}

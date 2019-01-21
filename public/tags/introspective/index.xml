@@ -8,18 +8,31 @@
     <language>en-us</language>
     <managingEditor>me@silentsilas.com (Silent Silas)</managingEditor>
     <webMaster>me@silentsilas.com (Silent Silas)</webMaster>
+<<<<<<< HEAD
     <lastBuildDate>Mon, 21 Jan 2019 12:00:00 +0000</lastBuildDate>
+=======
+    <lastBuildDate>Tue, 15 Jan 2019 12:00:00 +0000</lastBuildDate>
+>>>>>>> 83cb0c489cb15f5df0320e2359521e0b7ec0f7ed
     
 	<atom:link href="https://silentsilas.com/tags/introspective/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+<<<<<<< HEAD
       <title>Get A Grip</title>
       <link>https://silentsilas.com/writes/get-a-grip/</link>
       <pubDate>Mon, 21 Jan 2019 12:00:00 +0000</pubDate>
       <author>me@silentsilas.com (Silent Silas)</author>
       <guid>https://silentsilas.com/writes/get-a-grip/</guid>
       <description>The future doesn&#39;t need me yet, yet,Yet I wish I was there now, now,Now the past will not forget, get,Get a grip if you know how, How, How? </description>
+=======
+      <title>Fool Yourself</title>
+      <link>https://silentsilas.com/writes/fool-yourself/</link>
+      <pubDate>Tue, 15 Jan 2019 12:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/fool-yourself/</guid>
+      <description>You knew that they were joking,But over time, the lies took root.It&#39;s a belief you couldn&#39;t shakeWithout their Fate becoming Truth.You are what they say,And they&#39;ve said quite a lot.The more you fight against it,The more that must be fought. </description>
+>>>>>>> 83cb0c489cb15f5df0320e2359521e0b7ec0f7ed
     </item>
     
     <item>

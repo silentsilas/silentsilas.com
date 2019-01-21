@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lies on Silence Speaks</title>
+    <link>https://silentsilas.com/tags/lies/</link>
+    <description>Recent content in Lies on Silence Speaks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>me@silentsilas.com (Silent Silas)</managingEditor>
+    <webMaster>me@silentsilas.com (Silent Silas)</webMaster>
+    <lastBuildDate>Tue, 15 Jan 2019 12:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://silentsilas.com/tags/lies/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fool Yourself</title>
+      <link>https://silentsilas.com/writes/fool-yourself/</link>
+      <pubDate>Tue, 15 Jan 2019 12:00:00 +0000</pubDate>
+      <author>me@silentsilas.com (Silent Silas)</author>
+      <guid>https://silentsilas.com/writes/fool-yourself/</guid>
+      <description>You knew that they were joking,But over time, the lies took root.It&#39;s a belief you couldn&#39;t shakeWithout their Fate becoming Truth.You are what they say,And they&#39;ve said quite a lot.The more you fight against it,The more that must be fought. </description>
+    </item>
+    
+  </channel>
+</rss>

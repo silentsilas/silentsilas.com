@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-<<<<<<< HEAD
     <loc>https://silentsilas.com/writes/get-a-grip/</loc>
     <lastmod>2019-01-21T12:00:00+00:00</lastmod>
-=======
+  </url>
+  
+  <url>
     <loc>https://silentsilas.com/writes/fool-yourself/</loc>
     <lastmod>2019-01-15T12:00:00+00:00</lastmod>
->>>>>>> 83cb0c489cb15f5df0320e2359521e0b7ec0f7ed
   </url>
   
   <url>
@@ -569,11 +569,7 @@
   
   <url>
     <loc>https://silentsilas.com/tags/introspective/</loc>
-<<<<<<< HEAD
     <lastmod>2019-01-21T12:00:00+00:00</lastmod>
-=======
-    <lastmod>2019-01-15T12:00:00+00:00</lastmod>
->>>>>>> 83cb0c489cb15f5df0320e2359521e0b7ec0f7ed
     <priority>0</priority>
   </url>
   
@@ -663,11 +659,7 @@
   
   <url>
     <loc>https://silentsilas.com/categories/poetry/</loc>
-<<<<<<< HEAD
     <lastmod>2019-01-21T12:00:00+00:00</lastmod>
-=======
-    <lastmod>2019-01-15T12:00:00+00:00</lastmod>
->>>>>>> 83cb0c489cb15f5df0320e2359521e0b7ec0f7ed
     <priority>0</priority>
   </url>
   
@@ -774,11 +766,7 @@
   
   <url>
     <loc>https://silentsilas.com/</loc>
-<<<<<<< HEAD
     <lastmod>2019-01-21T12:00:00+00:00</lastmod>
-=======
-    <lastmod>2019-01-15T12:00:00+00:00</lastmod>
->>>>>>> 83cb0c489cb15f5df0320e2359521e0b7ec0f7ed
     <priority>0</priority>
   </url>
   
@@ -856,11 +844,7 @@
   
   <url>
     <loc>https://silentsilas.com/tags/wisdom/</loc>
-<<<<<<< HEAD
     <lastmod>2019-01-21T12:00:00+00:00</lastmod>
-=======
-    <lastmod>2019-01-15T12:00:00+00:00</lastmod>
->>>>>>> 83cb0c489cb15f5df0320e2359521e0b7ec0f7ed
     <priority>0</priority>
   </url>
   
@@ -884,11 +868,7 @@
   
   <url>
     <loc>https://silentsilas.com/writes/</loc>
-<<<<<<< HEAD
     <lastmod>2019-01-21T12:00:00+00:00</lastmod>
-=======
-    <lastmod>2019-01-15T12:00:00+00:00</lastmod>
->>>>>>> 83cb0c489cb15f5df0320e2359521e0b7ec0f7ed
     <priority>0</priority>
   </url>
   

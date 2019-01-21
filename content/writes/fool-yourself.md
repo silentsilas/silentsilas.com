@@ -13,9 +13,9 @@ title: Fool Yourself
 You knew that they were joking,
 But over time, the lies took root.
 It's a belief you couldn't shake
-Without their Fate becoming Truth.
+Without their "fate" becoming Truth.
 
-You are what they say,
+You are as they say,
 And they've said quite a lot.
 The more you fight against it,
 The more that must be fought.

@@ -1,5 +1,8 @@
 
 
+{{ $js := resources.Get "js/dist/bundle.js" | resources.Fingerprint }}
+<script src="{{ $js.RelPermalink }}" type="text/javascript"></script>
+
 <!-- Matomo -->
 <script type="text/javascript">
     var _paq = _paq || [];

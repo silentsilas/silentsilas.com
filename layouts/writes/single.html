@@ -12,13 +12,13 @@
     <div class="pagination">
         <span class="linklist_prev">
             {{ with .PrevInSection }}
-            <a href="{{ .Permalink }}">&lt;&lt; </a><a href="{{ .Permalink }}" class="linklist_prevtitle">{{ .Title }}</a> 
+            <a href="{{ .RelPermalink }}">&lt;&lt; </a><a href="{{ .RelPermalink }}" class="linklist_prevtitle">{{ .Title }}</a> 
             {{ end }}
         </span>
     |
         <span class="linklist_next">
             {{ with .NextInSection }}
-            <a href="{{ .Permalink }}" class="linklist_nexttitle">{{ .Title }}</a><a href="{{ .Permalink }}"> &gt;&gt;</a>
+            <a href="{{ .RelPermalink }}" class="linklist_nexttitle">{{ .Title }}</a><a href="{{ .RelPermalink }}"> &gt;&gt;</a>
             {{ end }}
         </span>
     </div>

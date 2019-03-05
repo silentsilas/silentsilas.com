@@ -1,26 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Falling Out on Silence Speaks</title>
-    <link>https://silentsilas.com/tags/falling-out/</link>
-    <description>Recent content in Falling Out on Silence Speaks</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <managingEditor>me@silentsilas.com (Silent Silas)</managingEditor>
-    <webMaster>me@silentsilas.com (Silent Silas)</webMaster>
-    <lastBuildDate>Thu, 20 Jul 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://silentsilas.com/tags/falling-out/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Signal Lost</title>
-      <link>https://silentsilas.com/writes/signal-lost/</link>
-      <pubDate>Thu, 20 Jul 2017 00:00:00 +0000</pubDate>
-      <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/signal-lost/</guid>
-      <description>There&#39;s no reason for us to talkAs we discuss meteorological matters.Our communal cup never fills upFor each time we lose touch, it shatters.You see in me a man from before.I see in you but a shallow shoreWith a receding tideOf our friendship folklore.Is there nothing more?I&#39;ve tired of this one-sided conversationSo I&#39;ll retire and keep myself complacentWith an assuming posture And twiddling of thumbsWith the occasional interjection Of terribly clever puns.</description>
-    </item>
-    
-  </channel>
-</rss>

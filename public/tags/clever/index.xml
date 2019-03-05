@@ -1,35 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Clever on Silence Speaks</title>
-    <link>https://silentsilas.com/tags/clever/</link>
-    <description>Recent content in Clever on Silence Speaks</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <managingEditor>me@silentsilas.com (Silent Silas)</managingEditor>
-    <webMaster>me@silentsilas.com (Silent Silas)</webMaster>
-    <lastBuildDate>Fri, 25 Mar 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://silentsilas.com/tags/clever/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>In Retrospect</title>
-      <link>https://silentsilas.com/writes/in-retrospect/</link>
-      <pubDate>Fri, 25 Mar 2016 00:00:00 +0000</pubDate>
-      <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/in-retrospect/</guid>
-      <description>Countless information&#39;s unaccounted forThe second the moment has passed.The details you do retain are blurredAnd the retention itself won&#39;t last.The data chosen to be collectedIs picked by your values and beliefs.Who&#39;s to know If the changed past guaranteesThe desired outcome&#39;s Probability to increase?(And what of The endless repercussions it&#39;s released?)In essence, To put it bluntly,Hindsight Is not 20/20.</description>
-    </item>
-    
-    <item>
-      <title>You Are</title>
-      <link>https://silentsilas.com/writes/you-are/</link>
-      <pubDate>Sun, 25 Oct 2015 00:00:00 +0000</pubDate>
-      <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/you-are/</guid>
-      <description>You&#39;re the rest of a phraseOn the tip of my tongue.You&#39;re the forgotten hookTo a song I&#39;d once sung.You&#39;re the key to a lockHanging just out of reach.You&#39;re the part of the lessonOur professors couldn&#39;t teach.You&#39;re the tough decisionMy mind could never make.You&#39;re the perfect chordI would find by mistake.You&#39;re the trivial problemsAnd their pseudo-solution.</description>
-    </item>
-    
-  </channel>
-</rss>

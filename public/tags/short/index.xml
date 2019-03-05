@@ -1,44 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Short on Silence Speaks</title>
-    <link>https://silentsilas.com/tags/short/</link>
-    <description>Recent content in Short on Silence Speaks</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <managingEditor>me@silentsilas.com (Silent Silas)</managingEditor>
-    <webMaster>me@silentsilas.com (Silent Silas)</webMaster>
-    <lastBuildDate>Thu, 11 Jan 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://silentsilas.com/tags/short/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Pure</title>
-      <link>https://silentsilas.com/writes/pure/</link>
-      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
-      <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/pure/</guid>
-      <description>Give him your chaos,He&#39;ll give it a form.Take all that you will,He&#39;ll create even more. </description>
-    </item>
-    
-    <item>
-      <title>Perspective</title>
-      <link>https://silentsilas.com/writes/perspective/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
-      <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/perspective/</guid>
-      <description>I saw a side of myselfThat I never expectedBy taking a lookFrom another’s perspective. </description>
-    </item>
-    
-    <item>
-      <title>Looking Good</title>
-      <link>https://silentsilas.com/writes/looking-good/</link>
-      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
-      <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/looking-good/</guid>
-      <description>When thingsAre looking good,You tendTo your mirror.But the clarityYou seek,You&#39;ll findTo be inferior. </description>
-    </item>
-    
-  </channel>
-</rss>

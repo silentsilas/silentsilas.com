@@ -1,35 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Faith on Silence Speaks</title>
-    <link>https://silentsilas.com/tags/faith/</link>
-    <description>Recent content in Faith on Silence Speaks</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <managingEditor>me@silentsilas.com (Silent Silas)</managingEditor>
-    <webMaster>me@silentsilas.com (Silent Silas)</webMaster>
-    <lastBuildDate>Mon, 15 Feb 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://silentsilas.com/tags/faith/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Congenealogy</title>
-      <link>https://silentsilas.com/writes/congenealogy/</link>
-      <pubDate>Mon, 15 Feb 2016 00:00:00 +0000</pubDate>
-      <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/congenealogy/</guid>
-      <description>I can tell by your withering leavesAnd dwindling fruits,Your outstretched branchHas lost touch with its roots.You have overextendedTo give wind its due chase,But the rush that you seekWill destroy you posthaste. </description>
-    </item>
-    
-    <item>
-      <title>Nothing To Lose</title>
-      <link>https://silentsilas.com/writes/nothing-to-lose/</link>
-      <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
-      <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/nothing-to-lose/</guid>
-      <description>You can&#39;t be let goOnce you&#39;ve clung to the truth.With your treasures in heaven,You&#39;ve got nothing to lose.Now free to live out your lifeWith nothing to proveSave for the love in your heartYou long to share with your crew. </description>
-    </item>
-    
-  </channel>
-</rss>

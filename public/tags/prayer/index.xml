@@ -1,26 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Prayer on Silence Speaks</title>
-    <link>https://silentsilas.com/tags/prayer/</link>
-    <description>Recent content in Prayer on Silence Speaks</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <managingEditor>me@silentsilas.com (Silent Silas)</managingEditor>
-    <webMaster>me@silentsilas.com (Silent Silas)</webMaster>
-    <lastBuildDate>Tue, 15 Mar 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://silentsilas.com/tags/prayer/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Spaghetti</title>
-      <link>https://silentsilas.com/writes/spaghetti/</link>
-      <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
-      <author>me@silentsilas.com (Silent Silas)</author>
-      <guid>https://silentsilas.com/writes/spaghetti/</guid>
-      <description>A woman bowed downBefore her plate of spaghettiTo send God a prayerHe&#39;s heard a thousand times already.But Jesus was in suchA mischievous moodThat He let the woman hearWhat the Father thought of her food.&#34;There she goes againWith her cookie-cutter requestFull of empty words meantTo ensure her noodles are blessed.&#34;But the woman quickly answered,&#34;There&#39;s no need to be so rude!</description>
-    </item>
-    
-  </channel>
-</rss>

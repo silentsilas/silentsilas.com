@@ -9,13 +9,12 @@
             {{ $scss := resources.Get "css/main.css" }} 
             {{ $tachyons := resources.Get "css/tachyons.min.css" }}
             {{ $style := slice $tachyons $scss | resources.Concat "app.css" | fingerprint }} 
-            <link rel="stylesheet" href="{{ $style.Permalink }}">
+            <link rel="stylesheet" href="{{ $style.RelPermalink }}">
             
-            {{ $js := resources.Get "js/dist/bundle.js" | resources.Fingerprint }}
-            <script src="{{ $js.Permalink }}" defer></script>
+            {{ partial "turbolinks.html" }}
 
-            {{ $turbolinks := resources.Get "js/turbolinks.js" | resources.Fingerprint }}
-            <script src="{{ $turbolinks.Permalink }}"></script>
+            <!-- {{ $turbolinks := resources.Get "js/turbolinks.js" | resources.Fingerprint }}
+            <script src="{{ $turbolinks.RelPermalink }}"></script> -->
         </head>
     {{ if .IsHome }}
     <body class="home">

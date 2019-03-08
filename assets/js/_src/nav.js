@@ -32,6 +32,9 @@ export function InitNav() {
     menuOptions.addEventListener('click', toggleMenu);
 
     function toggleMenu(ev) {
+        if (currentEm > 30) {
+            return;
+        }
         if (menuOptions.style.display != 'block') {
             // time to show em
             menuOptions.style.display = 'block';

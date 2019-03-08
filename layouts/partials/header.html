@@ -11,7 +11,7 @@
             {{ $style := slice $tachyons $scss | resources.Concat "app.css" | fingerprint }} 
             <link rel="stylesheet" href="{{ $style.RelPermalink }}">
             
-            {{ partial "turbolinks.html" }}
+            <!-- {{ partial "turbolinks.html" }} -->
 
             <!-- {{ $turbolinks := resources.Get "js/turbolinks.js" | resources.Fingerprint }}
             <script src="{{ $turbolinks.RelPermalink }}"></script> -->

@@ -1,5 +1,6 @@
 import TweenLite from './gsap/TweenLite'
 import { debounce } from "./debounce";
+import { isTouch } from './tactus';
 
 var currentEm;
 
@@ -30,11 +31,7 @@ export function InitNav() {
     menuEl.addEventListener('click', toggleMenu);
     menuOptions.addEventListener('click', toggleMenu);
 
-    function toggleMenu(el) {
-        if (currentEm > 30) {
-            return;
-        }
-        menuEl.classList.toggle("change");
+    function toggleMenu(ev) {
         if (menuOptions.style.display != 'block') {
             // time to show em
             menuOptions.style.display = 'block';
@@ -42,14 +39,12 @@ export function InitNav() {
             TweenLite.fromTo(menuOption, 0.4, {backgroundColor: "rgba(0,0,0,0.0)"}, {backgroundColor: "rgba(0,0,0,0.75)", delay: "0.3"});
             TweenLite.fromTo(menuOptions, 0.4, {top: "0px", opacity: "0"}, {top: "62px", opacity: "1"});
         } else {
+            menuEl.classList.remove("change");
             TweenLite.fromTo(menuOptions, 0.4, {opacity: "1", top: "62px"}, {opacity: "0", top: "0px", onComplete: HideMenu});
         }
-        
-        
-
     }
+
     function HideMenu() {
-        
         menuOptions.style.display = 'none';
     }
 }

@@ -1,11 +1,11 @@
 ---
 categories:
 - blog
-date: 2018-03-04 23:04:08 +0000
+date: 2019-03-04 23:04:08 +0000
 tags:
 - Consciousness
 title: Altered States Of Consciousness
-year: 2018
+year: 2019
 ---
 I've been obsessed with neuroscience as of late. What follows are just a few points I found remarkable in my reading of <a href="https://mitpress.mit.edu/books/altered-states-consciousness">Altered States of Consciousness - Experiences Out of Time and Self</a> by Marc Wittmann.
 

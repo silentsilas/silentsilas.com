@@ -6,7 +6,11 @@ tags:
 title: Lol, Aren't I So Random?
 year: 2019
 ---
+How random do you think you can be?
+
+
 On the surface, randomness seems pretty straight-forward. But it gets messy pretty quick once you try to pin down what it actually _is_. But before we dive down that <a href="#philosophy">philosophical rabbit hole</a>, let us first ask what it is that you actually _want_ from your _randomness_.
+
 
 ### A Bit Too Random
 Let's say you're developing a game. For the intro, you want the protagonist to feel absolutely helpless as they're surrounded by a torrent of randomly-placed enemies. Which of these distributions seem to pull that off the best?

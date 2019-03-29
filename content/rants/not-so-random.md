@@ -5,7 +5,6 @@ date: 2019-03-10 23:04:08 +0000
 tags:
 title: Lol, Aren't I So Random?
 year: 2019
-draft: true
 ---
 How random do you think you are?<a href="#ref0">[0]</a>
 

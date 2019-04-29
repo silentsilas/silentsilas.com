@@ -61,7 +61,7 @@ html, body {
 }
 
 main {
-    height: 100%;
+    height: calc(100% - 62px);
 }
 
 .linklist {
@@ -103,4 +103,8 @@ main {
     .linklist_nexttitle, .linklist_prevtitle, .older-posts, .newer-posts {
         display: inline-block;
     }
+}
+
+.commento-root .commento-logged-container .commento-logged-in-as a.commento-name {
+    color: rgba(60, 220, 60, 1) !important;
 }

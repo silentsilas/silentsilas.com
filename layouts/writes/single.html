@@ -1,12 +1,13 @@
 {{ partial "header.html" . }}
-<div class="fl w-25-ns pa2"></div>
-<main class="post fl w-100 w-50-ns">
+<div class="fl w-20-ns pa2"></div>
+<main class="post fl w-100 w-60-ns">
     
     <div class="post-content poem">
         <h2>
             {{ .Title }}
         </h2>
         {{ .Content }}
+        {{ partial "comments.html" . }}
     </div>
     
     <div class="pagination">
@@ -24,5 +25,5 @@
     </div>
     
 </main>
-<div class="fl w-25-ns pa2"></div>
+<div class="fl w-20-ns pa2"></div>
 {{ partial "footer.html" . }}

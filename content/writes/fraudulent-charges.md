@@ -4,7 +4,7 @@ categories:
 date: 2019-04-29 12:00:00 +0000
 tags:
 - Introspective
-title: Card Fraud
+title: Fraudulent Charges
 year: 2019
 ---
 {{< poem >}}

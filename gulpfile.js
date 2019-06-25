@@ -23,6 +23,7 @@ var watchedBrowserify = watchify(browserify({
 }))
 .transform('babelify', {
     presets: ['es2015'],
+    plugins: ['transform-async-to-generator', 'transform-runtime'],
     extensions: ['.js']
 })
 
@@ -42,9 +43,9 @@ gulp.task('default', function () {
     .bundle()
     .pipe(source('bundle.js'))
     .pipe(buffer())
-    // .pipe(sourcemaps.init({loadMaps: true}))
+    .pipe(sourcemaps.init({loadMaps: true}))
     .pipe(uglify())
-    // .pipe(sourcemaps.write('./'))
+    .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('assets/js/dist'));
 });
 

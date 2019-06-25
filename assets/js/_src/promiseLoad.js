@@ -1,6 +1,6 @@
 // import { TextureLoader, ObjectLoader, TGALoader, FontLoader } from 'three-full';
 import * as THREE from 'three';
-import GLTFLoader from '@threejs/GLTFLoaderFULL.js';
+import GLTFLoader from 'three-gltf-loader';
 
 // gonna let this class load in all our stuffz and promisify it all
 export default class {
@@ -26,28 +26,28 @@ export default class {
 		});
 	}
 
-	static GetTexture(url, callback) {
-		let texLoader = new THREE.TextureLoader();
-		return this.GenericLoader(texLoader, url, callback);
-	}
+	// static GetTexture(url, callback) {
+	// 	let texLoader = new THREE.TextureLoader();
+	// 	return this.GenericLoader(texLoader, url, callback);
+	// }
 
-	static GetObject(url, callback) {
-		let jsonLoader = new THREE.ObjectLoader();
-		return this.GenericLoader(jsonLoader, url, callback);
-	}
+	// static GetObject(url, callback) {
+	// 	let jsonLoader = new THREE.ObjectLoader();
+	// 	return this.GenericLoader(jsonLoader, url, callback);
+	// }
 
 	static GetGLTF(url, callback) {
 		let gltfLoader = new GLTFLoader();
 		return this.GenericLoader(gltfLoader, url, callback);
 	}
 
-	static GetTGA(url, callback) {
-		let tgaLoader = new THREE.TGALoader();
-		return this.GenericLoader(tgaLoader, url, callback);
-	}
+	// static GetTGA(url, callback) {
+	// 	let tgaLoader = new THREE.TGALoader();
+	// 	return this.GenericLoader(tgaLoader, url, callback);
+	// }
 
-	static GetFont(url, callback) {
-		let fontLoader = new THREE.FontLoader();
-		return this.GenericLoader(fontLoader, url, callback);
-	}
+	// static GetFont(url, callback) {
+	// 	let fontLoader = new THREE.FontLoader();
+	// 	return this.GenericLoader(fontLoader, url, callback);
+	// }
 }

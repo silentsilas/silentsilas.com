@@ -1,7 +1,8 @@
 import { ShowGreet } from "./greet";
-import { Initialize } from "./particles";
+import { Initialize } from "./stage";
 import { InitFingerprint } from "./fingerprint";
 import { InitNav } from './nav';
+import MouseInstance from './mouse';
 import './gsap/TimelineLite'
 import './gsap/CSSPlugin'
 
@@ -15,7 +16,7 @@ if (greetEl != null) {
     ShowGreet(greetEl);
 } 
 if (particlesEl != null) {
-    Initialize(particlesEl);
+    Initialize(particlesEl, new MouseInstance());
 }
 if (fpEl != null) {
     InitFingerprint(fpEl);

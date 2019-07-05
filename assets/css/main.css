@@ -8,7 +8,8 @@
   border-bottom: 2px solid #3cdc3c;
   font-size: 14px;
   background-color: rgba(0, 0, 0, 0.5);
-  color: #efefef; }
+  color: #efefef;
+  user-select: none; }
   .nav .nav_options {
     position: absolute;
     left: 50%;
@@ -162,7 +163,7 @@ html, body {
   text-align: center; }
 
 main {
-  height: 100%; }
+  height: calc(100% - 62px); }
 
 .linklist {
   max-height: calc(100% - 120px);
@@ -197,3 +198,6 @@ main {
     padding: 0px; }
   .linklist_nexttitle, .linklist_prevtitle, .older-posts, .newer-posts {
     display: inline-block; } }
+
+.commento-root .commento-logged-container .commento-logged-in-as a.commento-name {
+  color: #3cdc3c !important; }

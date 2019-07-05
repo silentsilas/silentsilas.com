@@ -1,11 +1,14 @@
 import * as THREE from 'three';
+import TweenLite, { Power2 } from '../gsap/TweenLite'
 import PromisedLoad from '../promiseLoad';
 
 export default class {
     constructor(scene, ms) {
         this.scene = scene;
         this.mouse = ms;
-        console.log("setting up");
+        this.isTouch = false;
+        document.addEventListener('touchstart', this.OnTouchStart.bind(this), false);
+        document.addEventListener('touchend', this.OnTouchEnd.bind(this), false);
         this._setup();
     }
     async _setup() {
@@ -42,8 +45,48 @@ export default class {
         this.scene.add(this.fillLight);
     }
 
+    OnTouchStart(e) {
+        this.isTouch = true;
+        if (this.obj != null) {
+            this.Explode();
+        }
+    }
+
+    OnTouchEnd(e) {
+        if (this.obj != null) {
+            this.Unexplode();
+        }
+    }
+
+    Explode() {
+        this.obj.traverse( (child) => {
+            if (child instanceof THREE.Mesh) {
+                TweenLite.to(child.position, 1.5, {
+                    x: child.basePosition.x + (child.pAngle.x * 50),
+                    y: child.basePosition.y + (child.pAngle.y * 50), 
+                    z: child.basePosition.z + (child.pAngle.z * 50),
+                    ease: Power2.easeOut
+                });
+            }
+        })
+    }
+
+    Unexplode() {
+        this.obj.traverse( (child) => {
+            if (child instanceof THREE.Mesh) {
+                TweenLite.to(child.position, 0.5, {
+                    x: child.basePosition.x,
+                    y: child.basePosition.y,
+                    z: child.basePosition.z,
+                    ease: Power2.easeOut
+                });
+            }
+        })
+    }
+
     Update() {
         if (this.obj == null) return;
+        if (this.isTouch) return;
         let mouseDistance = Math.abs(this.mouse.normalizedX) + Math.abs(this.mouse.normalizedY);
         this.obj.traverse( (child) => {
             if (child instanceof THREE.Mesh) {

@@ -40,13 +40,7 @@ function bundle() {
 
 gulp.task('default', function () {
     return watchedBrowserify
-    .bundle()
-    .pipe(source('bundle.js'))
-    .pipe(buffer())
-    .pipe(sourcemaps.init({loadMaps: true}))
-    .pipe(uglify())
-    .pipe(sourcemaps.write('./'))
-    .pipe(gulp.dest('assets/js/dist'));
+        .bundle()
 });
 
 gulp.task('watch', function() {

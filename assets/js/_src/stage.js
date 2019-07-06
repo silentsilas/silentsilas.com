@@ -113,6 +113,6 @@ function Update() {
     window.requestAnimationFrame(Update);
     UpdateLookat();
     particles.Update();
-    head.Update();
+    head.Update(particles.geometry.colors[0]);
     renderer.render(scene, camera);
 }

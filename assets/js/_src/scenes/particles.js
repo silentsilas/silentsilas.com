@@ -48,7 +48,6 @@ export default class {
 
         var pointCloud = new THREE.Points(this.geometry, material);
         this.scene.add(pointCloud);
-        console.log(this.scene);
 
         this.iterator = 0;
         this.colorIterator = 0;

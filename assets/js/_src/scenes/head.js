@@ -1,6 +1,8 @@
 import * as THREE from 'three';
 import TweenLite, { Power2 } from '../gsap/TweenLite'
 import PromisedLoad from '../promiseLoad';
+import { easeOutCubic } from '../utils/easing.js';
+// import * as Easing from '../utils/easing';
 
 export default class {
     constructor(scene, ms) {
@@ -14,13 +16,16 @@ export default class {
     async _setup() {
         let object = await PromisedLoad.GetGLTF("/models/Silas_Fractured.gltf");
         this.obj = object.scene.children[0];
-        this.dynamicMaterial = new THREE.MeshPhongMaterial({color: 0x66cc66});
+        this.outsideMat = new THREE.MeshStandardMaterial({ color: 0x33cc33, metalness: 0.3, roughness: 0.7 });
+        this.insideMat = new THREE.MeshStandardMaterial({ color: 0xcccccc });
+        this.insideMat.emissive.set(new THREE.Color(0.3, 0.3, 0.3));
 
         // get it placed correctly in scene
         this.obj.scale.set(1, 1, 1);
         this.obj.rotateX(Math.PI / 12);
         this.obj.rotateZ(0.1);
         this.obj.position.set(0, 0, -75);
+
 
         // initialize starting values
         this.obj.traverse( (child) => {
@@ -30,18 +35,21 @@ export default class {
                 child.pMath = child.parent.position.clone();
 
                 child.pAngle = child.pMath.clone().normalize();
-                console.log(child.pAngle);
-                child.material = this.dynamicMaterial;
+                if (child.material.name.includes("Inner")) {
+                    child.material = this.insideMat;
+                } else if (child.material.name.includes("Outer")) {
+                    child.material = this.outsideMat;
+                }
             }
         })
 
         this.scene.add(this.obj);
         this.keyLight = new THREE.DirectionalLight(new THREE.Color(0xffffff), 1 );
-        this.keyLight.position.set(-2.5, 2.5, 1);
+        this.keyLight.position.set(-1, 1, 0.25);
         this.scene.add(this.keyLight);
 
         this.fillLight = new THREE.DirectionalLight(new THREE.Color(0xffffff), 0.3);
-        this.fillLight.position.set(2.5, 0, 1);
+        this.fillLight.position.set(1, 0, 0.5);
         this.scene.add(this.fillLight);
     }
 
@@ -84,18 +92,20 @@ export default class {
         })
     }
 
-    Update() {
+    Update(color) {
         if (this.obj == null) return;
         if (this.isTouch) return;
-        let mouseDistance = Math.abs(this.mouse.normalizedX) + Math.abs(this.mouse.normalizedY);
+        let threshold = 0.7;
+        let mouseDistance = 1 - (Math.abs(this.mouse.normalizedX) + Math.abs(this.mouse.normalizedY));
         this.obj.traverse( (child) => {
             if (child instanceof THREE.Mesh) {
                 // calculate new position based on mouse
-                if ( mouseDistance >= 0.2 ) {
+                if ( mouseDistance >= threshold ) {
+                    let normalized = easeOutCubic( (mouseDistance - threshold) * (3 + (1/3)) );
                     child.pTarg.set(
-                        child.basePosition.x + (mouseDistance * child.pAngle.x * 100),
-                        child.basePosition.y + (mouseDistance * child.pAngle.y * 100),
-                        child.basePosition.z + (mouseDistance * child.pAngle.z * 100)
+                        child.basePosition.x + ( normalized * child.pAngle.x * 50),
+                        child.basePosition.y + ( normalized * child.pAngle.y * 50),
+                        child.basePosition.z + ( normalized * child.pAngle.z * 50)
                     )
                 } else {
                     child.pTarg.set(
@@ -106,9 +116,9 @@ export default class {
                 }
 
                 child.position.lerp(child.pTarg, 0.05);
-                // console.log(child.position);
             }
         })
+        this.insideMat.color.copy(color)
     }
 
 }

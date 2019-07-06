@@ -1,7 +1,7 @@
 export default class {
     constructor() {
-        this.x = (window.innerWidth / 2) + 20;
-        this.y = (window.innerHeight / 2) + 10;
+        this.x = 0; //(window.innerWidth / 2) + 20;
+        this.y = 0; //(window.innerHeight / 2) + 10;
         this.Normalize(this.x, this.y);
         document.addEventListener('mousemove', this.OnMouseMove.bind(this));    
         document.addEventListener('touchstart', this.OnTouchMove.bind(this), false);

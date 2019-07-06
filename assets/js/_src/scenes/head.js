@@ -8,7 +8,6 @@ export default class {
     constructor(scene, ms) {
         this.scene = scene;
         this.mouse = ms;
-        this.isTouch = false;
         document.addEventListener('touchstart', this.OnTouchStart.bind(this), false);
         document.addEventListener('touchend', this.OnTouchEnd.bind(this), false);
         this._setup();
@@ -54,7 +53,6 @@ export default class {
     }
 
     OnTouchStart(e) {
-        this.isTouch = true;
         if (this.obj != null) {
             this.Explode();
         }
@@ -96,18 +94,19 @@ export default class {
         if (this.obj == null) return;
         this.insideMat.color.copy(color)
         
-        if (this.isTouch) return;
+        if (this.mouse.isTouch) return;
         let threshold = 0.7;
         let mouseDistance = 1 - (Math.abs(this.mouse.normalizedX) + Math.abs(this.mouse.normalizedY));
         this.obj.traverse( (child) => {
             if (child instanceof THREE.Mesh) {
                 // calculate new position based on mouse
                 if ( mouseDistance >= threshold ) {
-                    let normalized = easeOutCubic( (mouseDistance - threshold) * (3 + (1/3)) );
+                    let normalized = (mouseDistance - threshold) * (3 + (1/3)); 
+                    let eased = easeOutCubic( normalized );
                     child.pTarg.set(
-                        child.basePosition.x + ( normalized * child.pAngle.x * 50),
-                        child.basePosition.y + ( normalized * child.pAngle.y * 50),
-                        child.basePosition.z + ( normalized * child.pAngle.z * 50)
+                        child.basePosition.x + ( eased * child.pAngle.x * 50),
+                        child.basePosition.y + ( eased * child.pAngle.y * 50),
+                        child.basePosition.z + ( eased * child.pAngle.z * 50)
                     )
                 } else {
                     child.pTarg.set(

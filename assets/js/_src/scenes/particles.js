@@ -25,6 +25,7 @@ export default class {
 
         // set up listeners for mouse interaction
         document.addEventListener('click', this.ChangeColor.bind(this));
+        document.addEventListener('touchstart', this.ChangeColor.bind(this), false);
 
         this.geometry = new THREE.Geometry();
         var material = new THREE.PointsMaterial({
@@ -128,7 +129,6 @@ export default class {
                     particle.z = dZ;
                     break;
                 case 2:
-                    
                     var distanceX = Math.sin( (this.modeCounter ) / 3000 ) * 20 ;
                     var distanceY = Math.sin( (this.modeCounter ) / 3000 ) * 20 ;
                     dX = originalX * ( ( Math.sin( (this.modeCounter - vertexIdx) / 100 ) * distanceX ) + 0);// * direction;
@@ -137,6 +137,11 @@ export default class {
                     particle.x = dX;
                     particle.y = dY;
                     particle.z = dZ;
+                    break;
+                case 3:
+                    particle.x = originalX;
+                    particle.y = originalY;
+                    particle.z = originalZ;
                     break;
             }
 

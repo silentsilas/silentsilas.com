@@ -2,6 +2,7 @@ export default class {
     constructor() {
         this.x = 0; //(window.innerWidth / 2) + 20;
         this.y = 0; //(window.innerHeight / 2) + 10;
+        this.isTouch = false;
         this.Normalize(this.x, this.y);
         document.addEventListener('mousemove', this.OnMouseMove.bind(this));    
         document.addEventListener('touchstart', this.OnTouchMove.bind(this), false);
@@ -20,6 +21,7 @@ export default class {
     }
     
     OnTouchMove(event) {
+        this.isTouch = true;
         this.x = event.touches[0].clientX;
         this.y = event.touches[0].clientY;
         this.Normalize(this.x, this.y);

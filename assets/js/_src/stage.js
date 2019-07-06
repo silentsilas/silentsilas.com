@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import Particle from './scenes/particles';
+import Particler from './Particler';
 import Head from './scenes/head';
 
 var Qtarg, Qnow;
@@ -13,15 +14,18 @@ var lookat = {
     y: 20,
     z: 100
 }
+var clock;
 var particles;
+var particler;
 var head;
 var ms;
 var modeElement;
 var currentMode = 0;
-var totalModes = 3;
+var totalModes = 4;
 
 export function Initialize(element, mouse){
     ms = mouse;
+    clock = new THREE.Clock();
     modeElement = document.querySelector(".particles_mode");
     // make sure canvas is always at correct aspect ratio
     window.addEventListener('resize', OnWindowResize);
@@ -49,7 +53,11 @@ export function Initialize(element, mouse){
 
     OnWindowResize();
 
-    particles = new Particle(scene, ms)
+    particles = new Particle(scene, ms);
+    particler = new Particler('/imgs/textures/astronaut.png', ms, true, camera);
+    scene.add(particler);
+    particler.visible = false;
+    particler.position.set(0, 0, -75);
     head = new Head(scene, ms);
 
     Update();
@@ -100,19 +108,30 @@ function LeftControl() {
 
 function ChangeMode() {
     if (currentMode <= 2) {
+        head.obj.visible = true;
+        particler.Hide();
         particles.Show();
         particles.ChangeMode(currentMode);
     } else {
+        head.obj.visible = false;
         particles.Hide();
+        particler.Show();
         console.log('initialize other cool modes')
     }
     modeElement.innerHTML = `${(currentMode + 1)}/${totalModes}`;
 }
 
 function Update() {
+    const delta = clock.getDelta()
+    const time = clock.getElapsedTime()
+    
     window.requestAnimationFrame(Update);
     UpdateLookat();
     particles.Update();
+    if (particler) {
+        particler._mesh.material.uniforms.uTime.value = time;
+        particler._mesh.material.uniforms.u_mouse.value = {x: ms.x , y: height - ms.y };
+    }
     head.Update(particles.geometry.colors[0]);
     renderer.render(scene, camera);
 }

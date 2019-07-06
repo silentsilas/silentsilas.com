@@ -94,6 +94,8 @@ export default class {
 
     Update(color) {
         if (this.obj == null) return;
+        this.insideMat.color.copy(color)
+        
         if (this.isTouch) return;
         let threshold = 0.7;
         let mouseDistance = 1 - (Math.abs(this.mouse.normalizedX) + Math.abs(this.mouse.normalizedY));
@@ -118,7 +120,6 @@ export default class {
                 child.position.lerp(child.pTarg, 0.05);
             }
         })
-        this.insideMat.color.copy(color)
     }
 
 }

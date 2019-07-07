@@ -95,7 +95,7 @@ export default class Particler extends THREE.Object3D {
       {
         url: '/imgs/textures/samus.jpg',
         dropLight: false,
-        skipAmount: 4,
+        skipAmount: 5,
         threshold: 50,
         attribution: 'https://whvn.cc/4ly532'
       },
@@ -111,12 +111,60 @@ export default class Particler extends THREE.Object3D {
         dropLight: false,
         skipAmount: 3,
         threshold: 50
+      },
+      {
+        url: '/imgs/textures/circle_of_the_moon.jpg',
+        dropLight: false,
+        skipAmount: 2,
+        threshold: 50
+      },
+      {
+        url: '/imgs/textures/super_metroid.jpg',
+        dropLight: false,
+        skipAmount: 2,
+        threshold: 1
+      },
+      {
+        url: '/imgs/textures/kirby_superstar.jpg',
+        dropLight: false,
+        skipAmount: 1,
+        threshold: 50
+      },
+      {
+        url: '/imgs/textures/nba_jam.jpg',
+        dropLight: false,
+        skipAmount: 2,
+        threshold: 50
+      },
+      {
+        url: '/imgs/textures/gradius_iii.jpg',
+        dropLight: false,
+        skipAmount: 1,
+        threshold: 20
+      },
+      {
+        url: '/imgs/textures/wotakoi.jfif',
+        dropLight: false,
+        skipAmount: 4,
+        threshold: 40
+      },
+      {
+        url: '/imgs/textures/shield_hero.jfif',
+        dropLight: false,
+        skipAmount: 4,
+        threshold: 20
+      },
+      {
+        url: '/imgs/textures/reincarnated_slime.jfif',
+        dropLight: false,
+        skipAmount: 5,
+        threshold: 50
       }
     ]);
     this.initialize(this.urls[this.urlIdx].url, discard);
   }
 
-  async initialize(url, discard, dropLight = true, skipAmount = 2, threshold = 100, cb) {
+  async initialize(url, discard, dropLight = false, skipAmount = 2, threshold = 50, cb) {
     let texture;
     try {
       texture = await this.loadTexture(url);
@@ -315,6 +363,7 @@ export default class Particler extends THREE.Object3D {
     document.addEventListener('mouseup', this.OnMouseUp.bind(this));  
     document.addEventListener('touchstart', this.OnTouchStart.bind(this), false);
     document.addEventListener('touchend', this.OnTouchEnd.bind(this));
+    document.addEventListener('keydown', this.SkipHead.bind(this));
   }
   
   _removeEvents() {
@@ -325,6 +374,7 @@ export default class Particler extends THREE.Object3D {
     document.removeEventListener('mouseup', this.OnMouseUp);  
     document.removeEventListener('touchstart', this.OnTouchStart);
     document.removeEventListener('touchend', this.OnTouchEnd);
+    document.removeEventListener('keydown', this.SkipHead);
   }
 
   // Events --------
@@ -382,6 +432,16 @@ export default class Particler extends THREE.Object3D {
         ease: 'Power2.easeOut'
       }
     );
+  }
+
+  SkipHead(e) {
+    var key = e.keyCode ? e.keyCode : e.which;
+    if (key == 32) {
+      if (this.explosionTimeout) {
+        clearTimeout(this.explosionTimeout);
+      }
+      this.handleExplosion();
+    }
   }
 
   OnMouseDown(e) {

@@ -8,6 +8,10 @@ var eyeCone;
 
 var width = window.innerWidth;
 var height = window.innerHeight;
+var middle = {
+    x: width / 2,
+    y: height / 2
+}
 var scene, camera, renderer;
 var lookat = {
     x: 20,
@@ -21,7 +25,7 @@ var head;
 var ms;
 var modeElement;
 var currentMode = 0;
-var totalModes = 4;
+var totalModes = 3;
 
 export function Initialize(element, mouse){
     ms = mouse;
@@ -66,6 +70,10 @@ export function Initialize(element, mouse){
 function OnWindowResize() {
     width = window.innerWidth;
     height = window.innerHeight;
+    middle = {
+        x: width / 2,
+        y: height / 2
+    }
     UpdateRendererSize();
 }
 
@@ -107,7 +115,7 @@ function LeftControl() {
 }
 
 function ChangeMode() {
-    if (currentMode <= 2) {
+    if (currentMode <= 1) {
         head.obj.visible = true;
         particler.Hide();
         particles.Show();
@@ -116,7 +124,6 @@ function ChangeMode() {
         head.obj.visible = false;
         particles.Hide();
         particler.Show();
-        console.log('initialize other cool modes')
     }
     modeElement.innerHTML = `${(currentMode + 1)}/${totalModes}`;
 }

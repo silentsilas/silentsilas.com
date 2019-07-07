@@ -12,7 +12,11 @@ export default class Particler extends THREE.Object3D {
     super()
     this.camera = camera;
     this.mouse = ms;
+    this.startingMagnitude = 2.0;
+    this.startingDistortion = 0.0;
+    this.isExploding = false;
     this.explosionCallbacks = cbs || [];
+    this.explosionTimeout;
     this.urlIdx = 0;
     this.urls = shuffle([
       {
@@ -45,7 +49,7 @@ export default class Particler extends THREE.Object3D {
         url: '/imgs/textures/cyberpunk_bartender.png',
         dropLight: false,
         skipAmount: 4,
-        threshold: 50
+        threshold: 20
       },
       {
         url: '/imgs/textures/cyberpunk_car.png',
@@ -112,7 +116,7 @@ export default class Particler extends THREE.Object3D {
     this.initialize(this.urls[this.urlIdx].url, discard);
   }
 
-  async initialize(url, discard, dropLight = true, skipAmount = 2, threshold = 100) {
+  async initialize(url, discard, dropLight = true, skipAmount = 2, threshold = 100, cb) {
     let texture;
     try {
       texture = await this.loadTexture(url);
@@ -142,12 +146,18 @@ export default class Particler extends THREE.Object3D {
     // this.rotation.set(0.63, -0.69, 0.42)
     // this.rotation.set(0, 2.4, 0)
     // this.rotation.set(3.14, 0, 0);
-    console.log(this._width);
     this._setupGeometry(discard);
     this._setupMaterial();
     this._setupMesh();
     this.Resize();
     TweenLite.fromTo(this._mesh.material.uniforms.uRandom, 1, {value: this._explosionAmount}, { value: 0.0 });
+    if (cb != null) {
+      if (this.explosionTimeout) {
+        clearTimeout(this.explosionTimeout);
+      }
+      this.isExploding = false;
+      this.explosionTimeout = setTimeout(cb.bind(this), 10000);
+    }
   }
 
   loadTexture(url) {
@@ -259,6 +269,7 @@ export default class Particler extends THREE.Object3D {
     const uniforms = {
       uTime: { value: 0.0 },
       uRandom: { value: this.startingRandom },
+      uDistortion: { value: this.startingDistortion},
       uDepth: { value: 0.0 },
       uSize: { value: 1.0 },
       uSizeMin: { value: 0.1 },
@@ -268,7 +279,7 @@ export default class Particler extends THREE.Object3D {
       uStartTint: { value : new THREE.Color(0x33cc33) },
       uGoalTint: { value: new THREE.Color(0x33ee33) },
       uTouch: { value: null },
-      uMagnitude: { value: 2.0 },
+      uMagnitude: { value: this.startingMagnitude },
       uRadius: { value: 1.0 },
       u_resolution: { value: new THREE.Vector2() },
       u_mouse: { value: new THREE.Vector2() }
@@ -300,42 +311,93 @@ export default class Particler extends THREE.Object3D {
   }
 
   _addEvents() {
+    document.addEventListener('mousedown', this.OnMouseDown.bind(this));
+    document.addEventListener('mouseup', this.OnMouseUp.bind(this));  
     document.addEventListener('touchstart', this.OnTouchStart.bind(this), false);
-    document.addEventListener('click', this.OnClick.bind(this), false);
+    document.addEventListener('touchend', this.OnTouchEnd.bind(this));
   }
   
   _removeEvents() {
+    if (this.explosionTimeout) {
+      clearTimeout(this.explosionTimeout);
+    }
+    document.removeEventListener('mousedown', this.OnMouseDown);
+    document.removeEventListener('mouseup', this.OnMouseUp);  
     document.removeEventListener('touchstart', this.OnTouchStart);
-    document.removeEventListener('click', this.OnClick);
-  }
-
-  OnClick(e) {
-    if (this.mouse.isTouch) return;
-    this.handleExplosion();
-  }
-
-  OnTouchStart(e) {
-    this.handleExplosion();
+    document.removeEventListener('touchend', this.OnTouchEnd);
   }
 
   // Events --------
-
   handleExplosion() {
-    let tl = new TimelineLite()
-    if (this._mesh == null || this._mesh == undefined) return;
-    TweenLite.to(
-      this._mesh.material.uniforms.uRandom, 0.5, { 
-        value: this._explosionAmount, 
-        ease: 'Power2.easeInOut',
-        onComplete: this.handleExploded.bind(this)
-      }
-    )
+    if (this._mesh == null || this._mesh == undefined) {
+      console.log('aw we cant explode')
+      return;
+    } else {
+      this.isExploding = true;
+      TweenLite.to(
+        this._mesh.material.uniforms.uRandom, 0.5, { 
+          value: this._explosionAmount, 
+          ease: 'Power2.easeInOut',
+          onComplete: this.handleExploded.bind(this)
+        }
+      )
+    }
   }
 
   handleExploded() {
     this.urlIdx = (this.urlIdx + 1) % this.urls.length;
     let currentImage = this.urls[this.urlIdx];
-    this.initialize(currentImage.url, true, currentImage.dropLight, currentImage.skipAmount, currentImage.threshold);
+    this.initialize(currentImage.url, true, currentImage.dropLight, currentImage.skipAmount, currentImage.threshold, this.handleExplosion);
+  }
+
+  Distort() {
+    if (this.isExploding) return;
+
+    TweenLite.to(
+      this._mesh.material.uniforms.uMagnitude, 0.5, { 
+        value: 4.0,
+        ease: 'Power2.easeOut'
+      }
+    );
+    TweenLite.to(
+      this._mesh.material.uniforms.uDistortion, 0.5, { 
+        value: 200.0, 
+        ease: 'Power2.easeOut'
+      }
+    );
+  }
+
+  Undistort() {
+    if (this.isExploding) return;
+
+    TweenLite.to(
+      this._mesh.material.uniforms.uMagnitude, 0.3, { 
+        value: this.startingMagnitude, 
+        ease: 'Power2.easeOut'
+      }
+    );
+    TweenLite.to(
+      this._mesh.material.uniforms.uDistortion, 0.3, { 
+        value: this.startingDistortion, 
+        ease: 'Power2.easeOut'
+      }
+    );
+  }
+
+  OnMouseDown(e) {
+    this.Distort();
+  }
+
+  OnMouseUp(e) {
+    this.Undistort();
+  }
+
+  OnTouchStart(e) {
+    this.Distort();
+  }
+
+  OnTouchEnd(e) {
+    this.Undistort();
   }
 
   onInteractiveMove(e) {
@@ -350,17 +412,12 @@ export default class Particler extends THREE.Object3D {
   Show(time = 1.0) {
     this.visible = true;
     this._addEvents();
-    // TweenMax.fromTo(this._mesh.material.uniforms.uSize, time, { value: 0.5 }, { value: 0.01 });
-    // TweenMax.fromTo(this._mesh.material.uniforms.uDepth, time * 1.5, { value: 40.0 }, { value: 1.0 });
+    this.explosionTimeout = setTimeout(this.handleExplosion.bind(this), 7000);
   }
 
   Resize() {
     this.fovHeight = 2 * Math.tan((this.camera.fov * Math.PI) / 180 / 2) * this.camera.position.z;
-    // this.interactive.resize()
-    // this._width = window.innerWidth
-    // this._height = window.innerHeight
     const scale = (this.fovHeight / this._height) * 2.0;
-    // const scale = 1;
     this._mesh.scale.set(scale, scale, 1);
   }
 
@@ -446,6 +503,7 @@ export default class Particler extends THREE.Object3D {
     
     uniform float uTime;
     uniform float uRandom;
+    uniform float uDistortion;
     uniform float uDepth;
     uniform float uSize;
     uniform float uSizeMin;
@@ -571,6 +629,10 @@ export default class Particler extends THREE.Object3D {
       // vec2 adjustedMouse = vec2( (u_mouse.x - 10.0) , u_mouse.y);
       vDist = min(max(distance( (u_mouse / u_resolution) , puv), 0.0), uRadius);
       float distDisplacement = log2( vDist + 0.1 );
+
+      // distortion
+      displaced.xy += vec2( (random(pindex) - 0.5) * max(((vDist * vDist) ), 0.0), (random(offset.x + pindex) - 0.5) ) * ( max(((vDist * vDist)), 0.0) * uDistortion * angle);
+
       displaced.z += (distDisplacement * uMagnitude);
       displaced.x += distDisplacement * uMagnitude;
       displaced.y += distDisplacement * uMagnitude;

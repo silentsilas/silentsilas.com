@@ -92,6 +92,7 @@ export default class {
 
     Update(color) {
         if (this.obj == null) return;
+        if (!this.obj.visible) return;
         this.insideMat.color.copy(color)
         
         if (this.mouse.isTouch) return;

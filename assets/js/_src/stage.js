@@ -136,8 +136,10 @@ function Update() {
     UpdateLookat();
     particles.Update();
     if (particler) {
-        particler._mesh.material.uniforms.uTime.value = time;
-        particler._mesh.material.uniforms.u_mouse.value = {x: ms.x , y: height - ms.y };
+        if (particler._mesh) {
+            particler._mesh.material.uniforms.uTime.value = time;
+            particler._mesh.material.uniforms.u_mouse.value = {x: ms.x , y: height - ms.y };
+        }
     }
     head.Update(particles.geometry.colors[0]);
     renderer.render(scene, camera);

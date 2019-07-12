@@ -8,7 +8,8 @@
   border-bottom: 2px solid #3cdc3c;
   font-size: 14px;
   background-color: rgba(0, 0, 0, 0.5);
-  color: #efefef; }
+  color: #efefef;
+  user-select: none; }
   .nav .nav_options {
     position: absolute;
     left: 50%;

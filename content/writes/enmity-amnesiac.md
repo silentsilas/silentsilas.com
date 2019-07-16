@@ -4,13 +4,13 @@ categories:
 date: 2019-07-15 12:00:00 +0000
 tags:
 - Introspective
-title: Emnity Amnesiac
+title: Enmity Amnesiac
 year: 2019
 ---
 {{< poem >}}
 Don't worry!
 I've got your back.
-I'm an emnity 
+I'm an enmity 
 Amnesiac.
 
 Each stab of yours 

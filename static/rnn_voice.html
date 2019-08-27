@@ -1,0 +1,64 @@
+<head>
+  <title>RNN Voice</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+
+<body style="padding: 20px; max-width: 600px; margin: auto;">
+  <div id="subtitles" style="padding-bottom: 20px;"></div>
+
+  <audio controls id="rnn_audio" style="display: none;"></audio>
+  <div class="button_container" style="margin: auto; width: 200px; padding: 20px 0px">
+    <div id="loader" style="padding-bottom: 20px;"></div>
+    <button id="voice_btn" onclick="load()" style="height: 100px; display: block; margin: auto;">Generate Voice</button>
+  </div>
+
+  <script type="text/javascript">
+    function load() {
+      var audioEl = document.querySelector("#rnn_audio");
+      var subtitles = document.querySelector("#subtitles");
+      var loader = document.querySelector("#loader");
+      var LOADING_TEXT = "Generating voice, please wait.";
+      var btn = document.querySelector("#voice_btn");
+      btn.style = "display: none;";
+
+      var xhttp = new XMLHttpRequest();
+
+      function getText() {
+        if (this.readyState == 4 && this.status == 200) {
+          var rnnText = JSON.parse(this.responseText);
+          getWav(rnnText);
+        }
+      }
+      xhttp.onreadystatechange = getText;
+      xhttp.open("GET", "https://silentsilas.com/rnn_request.php", true);
+      xhttp.send();
+
+      function getWav(text) {
+        loader.innerHTML = LOADING_TEXT;
+
+        var wavHttp = new XMLHttpRequest();
+        wavHttp.onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            var blob = new Blob([this.response], { type: 'audio/wav' });
+            var objectUrl = URL.createObjectURL(blob);
+            subtitles.innerHTML = text.text;
+            audioEl.style = "display: block; margin: auto;";
+            audioEl.src = objectUrl;
+            audioEl.onload = function (evt) {
+              URL.revokeObjectURL(objectUrl);
+            };
+            audioEl.play();
+            loader.innerHTML = "";
+          }
+        };
+        wavHttp.open("POST", "https://avatar.lyrebird.ai/api/v0/generate", true);
+        wavHttp.setRequestHeader('Authorization', 'Bearer oauth_1PzAZVgtasPwNOl1w3VpjqJuSlA');
+        wavHttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+        wavHttp.responseType = 'blob';
+        wavHttp.send(JSON.stringify(text));
+      }
+    }
+  </script>
+</body>

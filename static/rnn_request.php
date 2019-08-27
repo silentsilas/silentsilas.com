@@ -42,6 +42,6 @@ function tailCustom($filepath, $lines = 1, $adaptive = true) {
 }
 
 $data = tailCustom('/mnt/rnn/poetry-latest.txt', 16, true);
-echo json_encode($data);
+echo json_encode(array("text" => $data));
 
 ?>

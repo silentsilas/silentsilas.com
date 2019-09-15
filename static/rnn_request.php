@@ -1,5 +1,15 @@
 <?php
 header('Content-Type: application/json');
+
+function get_string_between($string, $start, $end){
+    $string = ' ' . $string;
+    $ini = strpos($string, $start);
+    if ($ini == 0) return '';
+    $ini += strlen($start);
+    $len = strpos($string, $end, $ini) - $ini;
+    return substr($string, $ini, $len);
+}
+
 function tailCustom($filepath, $lines = 1, $adaptive = true) {
     // Open file
     $f = @fopen($filepath, "rb");
@@ -41,7 +51,14 @@ function tailCustom($filepath, $lines = 1, $adaptive = true) {
     return trim(preg_replace('/\s+/', ' ', $output));
 }
 
+$full_data = file_get_contents("/mnt/rnn/poetry-latest.txt");
+$full_data = trim(preg_replace('/\s+/', ' ', $full_data));
+$timestamp = get_string_between($full_data, "(Generated at ", ")");
+
 $data = tailCustom('/mnt/rnn/poetry-latest.txt', 16, true);
-echo json_encode(array("text" => $data));
+echo json_encode(array(
+    "date" => $timestamp,
+    "text" => $data
+));
 
 ?>

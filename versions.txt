@@ -3,4 +3,5 @@
 8:11PM 9.25.19: QmPLChPZhor91TQerhwsa27f6eGVaCBEWFm5TkvKhxjmFs
 8:01PM 10.16.19 QmR4NrW4xdC7yRx5c1Gge6tfhE19B8QwNHeEuiyg2Wrv3L
 6:47PM 10.26.19: QmaRdGrj1WpteMEw5YvT21zF6hTYM2V5FA1FwkNN9DTHjw
-10:08PM 11.7.19: QmULRVaCQhQcgu573eF67ywjsAeyyXLTbLJEB6Did47fcQ
+10:08PM 11.7.19: QmULRVaCQhQcgu573eF67ywjsAeyyXLTbLJEB6Did47fcQ (add privacy policies to syborg/privy)
+2:11PM 11.8.19: QmTnEpKLknJsbxCpj99JeYwrgrnqiJ4mBwWkjVr5FVd1em (add Lost Connections)

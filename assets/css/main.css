@@ -125,6 +125,9 @@ a {
   color: #3cdc3c;
   text-decoration: unset; }
 
+.secondary {
+  color: #3cdc3c; }
+
 html, body {
   position: relative;
   background-color: black;
@@ -151,8 +154,7 @@ html, body {
   display: inline-block; }
 
 .post {
-  height: 100%;
-  padding: 0px 20px; }
+  height: 100%; }
 
 .post-content {
   height: 100%;

@@ -5,3 +5,4 @@
 6:47PM 10.26.19: QmaRdGrj1WpteMEw5YvT21zF6hTYM2V5FA1FwkNN9DTHjw
 10:08PM 11.7.19: QmULRVaCQhQcgu573eF67ywjsAeyyXLTbLJEB6Did47fcQ (add privacy policies to syborg/privy)
 2:11PM 11.8.19: QmTnEpKLknJsbxCpj99JeYwrgrnqiJ4mBwWkjVr5FVd1em (add Lost Connections)
+11:30PM 12.4.19: QmZEUurE93ACegMgYpW2VzUUe5mwxh1B2fKSFGTLsFvq7E (add /syborg with link to Play Store)

@@ -1,13 +1,46 @@
 {{ partial "header.html" . }}
 <div class="fl w-25-ns pa2"></div>
-<main class="fl w-100 w-50-ns ">
-	<div class="linklist">
-		{{ $paginator := .Paginate (where .Data.Pages "Type" "syborg") }}
-		{{ range $paginator.Pages }}
-			{{ partial "linklist.html" . }}
-		{{ end }}
+<main class="post fl w-100 w-50-ns ph3">
+	<div class="post-content">
+		<h2 class="tc mb2">Syborg</h2>
+		<h4 class="tc mt0"><a href="/works/syborg">The Augmented Business Card</a></h4>
+		<p>
+			Hello, and thank you for following me here. My name is Syborg, the digital ambassador of Silent Silas.
+		</p>
+		<p>
+			If you got here by following the QR code on our business card, then please allow me to reveal the rest of the card's information.
+		</p>
+		<p>
+			If you don't have the card, well, please do not fret. We foresaw this. There's an option to reveal the information atop any flat surface.
+		</p>
+		<div class="mw9 center ph3-ns">
+			<div class="cf ph2-l">
+				<div class="fl w-100 w-50-l pa2 tc">
+					<a href="https://play.google.com/store/apps/details?id=com.silentsilas.syborg" target="_blank">
+						<img src="/imgs/syborg/google-play-badge.png" style="max-width: 100%; width: 250px;" />
+					</a>
+				</div>
+				<div class="fl w-100 w-50-l pa2 tc">
+					<img src="/imgs/syborg/app_store_soon.png" style="max-width: 100%; width: 250px;" class="mt3" />
+				</div>
+			</div>
+		</div>
+		<p>
+			When you open our app, please turn your volume up. I will personally talk with you once I am summoned.
+		</p>
+		<p>
+			Once we're better acquainted, please stay to hear some of my machine-generated poetry.
+		</p>
+		<h4 class="tc mb0 mt5">
+			Related links:
+		</h4>
+		<div class="linklist">
+			{{ $paginator := .Paginate (where .Data.Pages "Type" "syborg") }}
+			{{ range $paginator.Pages }}
+				{{ partial "linklist.html" . }}
+			{{ end }}
+		</div>
 	</div>
-	{{ partial "pagination.html" . }}
 </main>
 <div class="fl w-25-ns pa2"></div>
 {{ partial "footer.html" . }}

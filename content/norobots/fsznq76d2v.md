@@ -7,7 +7,7 @@ You must have scanned my business card.
 Or you spent a lot of time guessing the URL. This page URL only has alphanumeric lowercase characters, which means there are (26 letters + 10 numbers) 36 possibilities per character. Since there are 10 characters, that leaves you with 36<sup>10</sup> = 3,656,158,440,062,976 total alphanumeric lowercase combinations. Divide that by half for how many guesses it would take on average to randomly guess the URL. Let's assume someone could use their GPU to try 100 billion URLs per second<a href="#ref0">[0]</a> 
 
 <code>
-<pre style="background-color: rgb(40, 40, 40); padding: 10px;">
+<pre style="background-color: rgb(40, 40, 40); padding: 10px; overflow: auto;">
 3656158440062976 = total possible URL combinations
 3656158440062976 / 2 = 1828079220031488 guesses needed to find it on average
 1828079220031488 / 100000000000 = 18280 seconds
@@ -21,7 +21,7 @@ Anyways, back to the matter at hand.
 
 The name's Silas, and my obsessions include cryptography, poetry, world religions, and <a href="https://elixir-lang.org" target="_blank">Elixir</a>. My dream is to help dismantle <a href="https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism" target="_blank">surveillance capitalism</a>.
 
-I work in Elixir and Javascript (Typescript + React) for my day job. You can find out more on my <a href="https://www.linkedin.com/in/jstippens/" target="_blank">LinkedIn</a> profile. I'm not too active on there, so it's best to contact me via email.
+I work in Elixir and Javascript (Typescript + React) for my day job. You can check out my side projects on <a href="https://github.com/silentsilas/" target="_blank">Github</a>, or take a look at my <a href="https://www.linkedin.com/in/jstippens/" target="_blank">LinkedIn</a> profile. I'm not too active on LinkedIn, so it's best to contact me via email.
 
 Offline, you'll find me inline skating around Cincinnati, performing at an open mic, or sipping absinthe at my local watering hole. 
 
@@ -34,7 +34,7 @@ If that's too difficult, you can insecurely <a href="mailto:me@silentsilas.com">
 If, for some reason, you're not able to download my key from the OpenPGP server, you may copy it from here:
 
 <code>
-<pre style="background-color: rgb(40, 40, 40); padding: 20px;">
+<pre style="background-color: rgb(40, 40, 40); padding: 10px; overflow: auto;">
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBF4yUM8BEACmaN6sTWapzVS121OVll8YWk2OLLLoRD6qrhJQ+X5i/xYL6VQZ

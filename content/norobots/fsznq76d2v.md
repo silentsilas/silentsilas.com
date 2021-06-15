@@ -4,14 +4,15 @@ sitemapExclude: true
 ---
 You must have scanned my business card. 
 
-Or you spent a lot of time guessing the URL. This page URL only has alphanumeric lowercase characters, which means there are (26 letters + 10 numbers) 36 possibilities per character. Since there are 10 characters, that leaves you with 36<sup>10</sup> = 3,656,158,440,062,976 total alphanumeric lowercase combinations. Divide that by half for how many guesses it would take on average to randomly guess the URL. Let's assume someone could use their GPU to try 100 billion URLs per second<a href="#ref0">[0]</a> 
+Or you spent a lot of time guessing the URL. fsznq76d2v only has alphanumeric characters, all lowercase, which means there are 36 possibilities per character (26 letters + 10 numbers). Let's assume someone could use their GPU to try 100 billion URLs per second<a href="#ref0">[0]</a> 
 
 <code>
 <pre style="background-color: rgb(40, 40, 40); padding: 10px; overflow: auto;">
-3656158440062976 = total possible URL combinations
-3656158440062976 / 2 = 1828079220031488 guesses needed to find it on average
+26 + 10 = 36 possibilities per character
+36<sup>10</sup> = 3656158440062976 total combinations for 10 characters
+3656158440062976 / 2 = 1828079220031488 guesses needed on average to find "fsznq76d2v"
 1828079220031488 / 100000000000 = 18280 seconds
-18280 / 60 / 60 = ~5 hours on average to find this URL
+18280 / 60 / 60 = ~5 hours on average to find "fsznq76d2v"
 </pre>
 </code>
 

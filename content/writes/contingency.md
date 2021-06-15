@@ -49,5 +49,5 @@ The plight of this boy is akin to the situation Christ may have found himself in
 
 I found both situations to be similar still to the spiritual struggle Protestants wrestle with; simultaneously condemned for their sins, yet chosen for salvation. Such cognitive dissonance oft gives rise to an inferiority complex when looking inward, and a superiority complex when looking outward to those who haven't yet accepted their inferiority and dependence on God.
 
-If you're in an evangelical sect, this is further compounded with the ever-present guilt for lacking the strength to bare witness to others (or pride if you're outgoing enough to pull it off). Perhaps an additional verse can touch on that subject. Suffice to say, however, these believes may leave you a self-loathing hypochondriac in one regard, and a leading role on stage in the other.
+If you're in an evangelical sect, this is further compounded with the ever-present guilt for lacking the strength to bare witness to others (or pride if you're outgoing enough to pull it off). Perhaps an additional verse can touch on that subject. Suffice to say, however, these beliefs may leave you a self-loathing hypochondriac in one regard, and a leading role on stage in the other.
 </div>

@@ -1,6 +1,6 @@
 baseURL = "https://silentsilas.com/"
 languageCode = "en-us"
-title = "Silence Speaks"
+title = "The rants, writing, and work of Silas."
 disablePathToLower = false
 paginate = 8
 enableRobotsTXT = false

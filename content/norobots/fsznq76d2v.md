@@ -28,7 +28,7 @@ Offline, you'll find me inline skating around Cincinnati, performing at an open 
 
 ## Contact
 
-Feel free to send me an encrypted email with <a href="https://keys.openpgp.org/vks/v1/by-fingerprint/7303F01B11E7948280F12685A8379A9A5A812815" target="_blank">this key</a>. If you're not familiar with PGP, it's not too difficult to set it up for your email. To get started, <a href="https://www.openpgp.org/software/" target="_blank">here</a> is a list of mail clients that support it. I personally use Thunderbird.
+Feel free to send me an encrypted email with <a href="https://keys.openpgp.org/vks/v1/by-fingerprint/0991A32CB8D8F942BE06060B4199EFB7DAA34349" target="_blank">this key</a>. If you're not familiar with PGP, it's not too difficult to set it up for your email. To get started, <a href="https://www.openpgp.org/software/" target="_blank">here</a> is a list of mail clients that support it. I personally use Thunderbird.
 
 If that's too difficult, you can insecurely <a href="mailto:me@silentsilas.com">email me</a>, though I may not respond if it contains sensitive information and your email doesn't support PGP.
 
@@ -38,54 +38,28 @@ If, for some reason, you're not able to download my key from the OpenPGP server,
 <pre style="background-color: rgb(40, 40, 40); padding: 10px; overflow: auto;">
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
-mQINBF4yUM8BEACmaN6sTWapzVS121OVll8YWk2OLLLoRD6qrhJQ+X5i/xYL6VQZ
-ot/a2JHv0aiq/q9Is+/w2s6lv2/gsctazXpemJYI+Tj/HE1X089nw2YpFbfmr7Bn
-29fsIPGlvl9Zqyocl7zSKywpPPidgVvl60K9UWnUOaEuiqvx9KvvxzsMDuW9sJyX
-NRraCEIxhFLQ5As8OpJ9nbvIqngFgyBdrCRiVHoGlE5mIEg61zpjIgwhJ0sSeTsV
-cW+d+JFkxuEfV6xBx7yq8DtMpXcFvlTV7pV1jugTKTRbVQ7kT7gbX8TbVHZFTAPF
-dHOZTYR8e2Cxy15JhNQ9/VLirJmu7k5PhwFTPvY/e+44FJD4jmaJf7XFw79+QxtD
-BWK4yjuhP0eskVaMbpKgt/OqDGLm3rdOo1MzTo5u/sHZ4l91cEXsZUUZCdq9xUbz
-sp4pcQCHm+TUCoOyPieJhiCGFAjG7FDnHewbQpBc7VnZ/EJ3ku6OvvFDnHmUFnoT
-dwzaHGexP+dbp3menacyVZFGTEgS7bp07nP+7k4hJofaqF8kqB5AuysBQoSgH28Y
-+5RaOqbFbqvQcapF60bLC82ten+CDqoBRdVUtqPF9dS4fAexRK+28FcNKmUOGpP8
-oOSWnZNfiKVcxP4R9UzUfEC1cVIKEn2/TXmJ50CSSgImVbr/y8RmtNT4lwARAQAB
-tCJTaWxhcyBUaXBwZW5zIDxtZUBzaWxlbnRzaWxhcy5jb20+iQI4BBMBCAAiBQJe
-MlDPAhsDBgsJCAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAKCRCoN5qaWoEoFUdaEACJ
-x3QP6QwM5TsLCa1aoV5T2hyaCLtaR+gWhc4OYTIsjM/C3f6C+VRHC0M6U3Ul6/oV
-C71MyBF2wriTIfz990QtHYXjJ1QmdP7ltBehYIW6ZU0Gz9lY8jbl47CfzRo+MYAA
-odZtMHyUAdllU/jZ32Fan/+OpFR55cB7nT+MAlXhL/LrVRfqfwccLDsq7+7u4+vi
-F01ZOUOEppiPH0QnVtKEoC+L5ujTtBO1YISEH/eOGWy0LTXzyQJEngkWNqVCbisv
-+Db0hNklyNPus56G0JsiNGj4j0+0RnlRu6Om6Z7vzZ+Vwse4CVwj1jpiavhvtaX+
-pZdfZcmhK0pTWQ5MC3QrXJMFlWWwTo4leuIgr53sa+WhxkrfiL+OYh6z1wkKremp
-Xh9PsGo4GVLCHaZ0lHDDftDMcJaI+DEt5DFCnmYWmBMbX/gWAKCCT7yasbXnhCup
-SpDxdmmD4RKavrnNc48cG7gBPm3C8lnbZMNqHb+J5F9DQMS2xLwb54V7BCZCHdQP
-zBD2zibUi8ljsG7XSAt0JVt5Y9B3LzQt2aqUtshUBvU7MkRIUM7MytLsXypzmuun
-/A7BMiJk2BZFOw8HblTp/q+YrtVU0jPjn5fCGUshwwt+06YLXtouRRBSBAfU8f0y
-9FXMZnazd/ju0NLUFxy4CuA6QA6aIxgdq1TF8SI+mbkCDQReMlDPARAA1wb9QCsT
-HdTQ1smg3Uk6eNhiUq5lscHefhuQ9/vvGyxmiL3w52WwgU+18fKAoetZWC8dnvPH
-e/ooeiA9YFbaHhqUfQYuwIoY3HZ0wo0wCA5mr/st6i08tWJU9TvfxR66sRoSyTYY
-TJa7wLjWW63h6puHP8lVWNp8mVU4bqW9REWsrW0L3KA/XSHL5C8+EC/oq8g3YPQP
-AVn2QkC4k8yBd/p1c4DkIGcHASe1H3s0Lbgol4r8fvarkudQcZMQxtv0Z5LHuk7v
-RI1b5qGQTeW9Wab1BXsg0gqa1ut+9IO3tfY2cs1k0sALDZeCmmosDBATvQvkKnBf
-7HjSKKO8zc5JK2L8vXLJxOJFlUl2XHufAqQ/JjYcrLCfcYvPiJrKAy8zgZKWLkYu
-583FqOkhhouV8fxKzu4/DZKYJ/OZTOezYTNV+JFvIww9pzkaSH/i1QMK1NlZhL4E
-EIFFI8O55j3mVkp4wH2mKj6mH2zPDaDlgojXHR7ZxWILH0Jl8wPOdla5gQ5KOzNB
-pvAP+GxWIxQKxumj36agYx0ulum9tX67OwTNx6HcRKwyEDc4Em0DRdaCMmq0+GNL
-aio9yycDwA1exuI9cfSXp/BIpI0Lk+/hJ2uVV1/CFyXbXQEJYj//97B7QsW/kgPk
-lWvh1AV8OfNoTRCTdletNLvL6vPYHfJ01GEAEQEAAYkCHwQYAQgACQUCXjJQzwIb
-DAAKCRCoN5qaWoEoFUX5D/9lLwp0IuvoL8ZQ1esVWX1yLJMFhvw93QSpQBB9dbz1
-HU6FsTxO2XkcRlCWnI6SImyRUgCLJReMu7DzJPKkAxJVU/Tjhk3bjSj1JTu3yuNi
-lbn+W+C/LNEyYRPidihGKJ485J/lpTd+nfRNEpbmllwDMr+IUvytXKpGR9WcqwLd
-hpKc2Q9/4KQ+jaxmt6Ws2q10llavdV1aZDkNfFe9rM4VELX/U2ZSpeROMgS2Ad0D
-VKIOCIm58Ou46rmJ4VeHgwDCiXfK7gvrrmXDdNCzAGq/X7jqRV67X+ojRxuY8QAm
-pVjnxbuDp+OS6taI2wB4GDyS1wKlXAKVdl8N8AKhu3qqdB9pcey1pt2XVATLn89m
-X1fLr3cVuvAjzCDZ8+rNlmtnINwDV5m687SpZLnflTblzK6mPGyLAQuF3vxwqSZ7
-WQGbSlBEo5VF10wipGR8+8UZDsS5Q93uO94iYGzwU6YpUl6QOIDjCvcao+ydi6/M
-z9tELT+svDuCADGdJ/3rut9apDVXbH0lS7QW3FUO8TLZm/VNYoTeKDXBeD6XQCri
-CnPei46BlsUL+pcOiczPPSX0sSLefQcwfMfs9DRiFbCfkmzpsFM7ox8F7wpXKsBt
-P5OmZ64Wj3MJVoQ6LU7jXT20cYQ3AVybAX2wFpNRQlcAfhBvZ3UQN1dHvyEtSp2f
-HQ==
-=QctL
+mDMEYMoJIxYJKwYBBAHaRw8BAQdAGNQQo5q3IXBopWmQheyz2rq9TWwRmKmVl0Y0
+kQwpLJO0GlNpbGFzIDxtZUBzaWxlbnRzaWxhcy5jb20+iJAEExYIADgWIQQJkaMs
+uNj5Qr4GBgtBme+32qNDSQUCYMoJIwIbAwULCQgHAgYVCgkICwIEFgIDAQIeAQIX
+gAAKCRBBme+32qNDSUG9AP4+ibn0gQ0KbLfR75QrXFmP3MWnohLJxCTiFLB5j0Rx
+jAEAvsWWDZeIPs4e83vys9aOqiiSupJb06voF14E63ic0g+JAjMEEAEIAB0WIQRz
+A/AbEeeUgoDxJoWoN5qaWoEoFQUCYMoLwwAKCRCoN5qaWoEoFaoVD/0TFsWQ03K0
+nxbU9lqSYYb746uVKnssMty4xRFicihKupgNvvz5HtkRBoCvYFWEDSALb7uUwqQS
+NgpziAfdiCTdT4C71VbAiCScSSCnjGBbBAi5kHqoTMsVqcgILQwHzD5GW2rdY9wP
+soPdYXEyN7Zo9zLfles2j7VgcemL9oSoT21hTyMwn8/XzqW8224twdjASuq3ugou
+XfNEDmxq9GiwLXWi5se6rjY8R26ePh8s8XWjEP4qu3Vz3vhLj16vU+wpKZHFAr44
+CRCINQhll6IejhZOQ02m7FtNhRWY3/H8oTi7c35YmSs3A/t/UfXj4eLmN60ibVv8
+WD1LcuMT8UdU35smvAgJOCmikW3RVQbuhL353s4RYqIy1ZQuyKwW+eE8KtpSfFGH
+B7wno+GlGiLArijcIVinkQx/6I9x4KXZNS/IN4L4rQgh8fK7ODPxxAg6mYnQA0sM
+kEGhBSlZXS3RTfxNADkY9+tWAKaOu+D6kAZB1ClXf6CZvQRWplK9M4OMdiGCs07H
+7Id1lCWwMOj72cLX+5tT34JLKaIBd+AUCM/vJKlcOzukPGmJ6Y0E1jgo3ipCsT91
+kyFiz4MQ4CnTovf2Pe1G77aeRw8k1rHQLuWencnoioNJN7adbvOC3S2TC3jDcVAK
+MoTMQLAASFTbExYGeErk/qLbIRvjzPB857g4BGDKCSMSCisGAQQBl1UBBQEBB0AA
++x9Iaur9ORUXDIgc1lQho8mZ/r0cLyF8fOjrPKZ0LAMBCAeIeAQYFggAIBYhBAmR
+oyy42PlCvgYGC0GZ77fao0NJBQJgygkjAhsMAAoJEEGZ77fao0NJMOQBAJQZ3yYC
+UheiGnJiOEV3utJob9rBm7SRnJsBmSulyW6+AP93unCI8Hdpi6yNcDYqtQbX/eK7
+OGcc3In1NS+ou6l2Cg==
+=uM/0
 -----END PGP PUBLIC KEY BLOCK-----
 </pre>
 </code>

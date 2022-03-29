@@ -5,6 +5,7 @@ disablePathToLower = false
 paginate = 8
 enableRobotsTXT = false
 relativeURLs = true
+disableKinds = ['taxonomy', 'term']
 # googleAnalytics = "UA-62812844-1"
 
 [params]
